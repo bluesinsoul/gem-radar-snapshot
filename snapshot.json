@@ -1,6 +1,6 @@
 {
   "as_of": "2026-06-24",
-  "generated_at": "2026-06-24T15:11:14Z",
+  "generated_at": "2026-06-24T19:07:21Z",
   "data_age_days": 0,
   "note": "Authoritative local data: GemRadar gems.db (CoinGecko fundamentals + DeFiLlama protocol fees/TVL/revenue) over the longshot.db price/supply/coil backbone. FUNDAMENTALS-FIRST, low-cap gems ($5M-$250M). Raw signals, NO composite score. null = NO DATA (do not guess). Layers: GATES qualify (G1 real-yield, G2 clean-float, G3 liquidity, G4 not-wash), DIVERGENCES are early-tells (trend halves light up after >=2 daily collects), TRAPS flag distribution. Percentiles are sector-relative. coil_lookalikes (longshot winner-DNA) = the TIMING overlay, not the thesis.",
   "universe": {
@@ -13,7 +13,7 @@
     "with_protocol_tvl": 83,
     "with_revenue": 53,
     "with_dev_commits": 603,
-    "real_yield_known": 0
+    "real_yield_known": 57
   },
   "market": {
     "total_mcap_usd": 2191762403572.54,
@@ -25,6 +25,48 @@
     "date": "2026-06-24"
   },
   "confluence": [
+    {
+      "symbol": "ATH",
+      "cg_id": "aethir",
+      "sector": "Artificial Intelligence (AI)",
+      "mcap_usd": 87990566.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 1.7206768872621478,
+      "p_s": 8.60339671794113,
+      "price_change_30d_pct": -29.669617785451248
+    },
+    {
+      "symbol": "BNKR",
+      "cg_id": "bankercoin-2",
+      "sector": "Artificial Intelligence (AI)",
+      "mcap_usd": 41216195.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 0.6246816720407334,
+      "p_s": 1.561706051969436,
+      "price_change_30d_pct": -23.475156718607238
+    },
+    {
+      "symbol": "CHIP",
+      "cg_id": "chip-2",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 63967086.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 1.2000028102018119,
+      "p_s": 1.7029103149925948,
+      "price_change_30d_pct": -35.47924919182026
+    },
     {
       "symbol": "CARDS",
       "cg_id": "collector-crypt",
@@ -38,6 +80,20 @@
       "p_f": 0.413161133801053,
       "p_s": 0.413161133801053,
       "price_change_30d_pct": 89.74416314066272
+    },
+    {
+      "symbol": "COW",
+      "cg_id": "cow-protocol",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 88583328.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 3.6219424551472317,
+      "p_s": 5.161744642601605,
+      "price_change_30d_pct": -7.364023798492861
     },
     {
       "symbol": "DBR",
@@ -68,6 +124,20 @@
       "price_change_30d_pct": -20.985162393811656
     },
     {
+      "symbol": "GEOD",
+      "cg_id": "geodnet",
+      "sector": "DePIN",
+      "mcap_usd": 98126491.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 9.191938913058616,
+      "p_s": 9.191938913058616,
+      "price_change_30d_pct": 43.79070545225723
+    },
+    {
       "symbol": "LDO",
       "cg_id": "lido-dao",
       "sector": "Decentralized Finance (DeFi)",
@@ -80,6 +150,48 @@
       "p_f": 0.4988765762926926,
       "p_s": 7.951745098499246,
       "price_change_30d_pct": -26.19312857653818
+    },
+    {
+      "symbol": "LMTS",
+      "cg_id": "limitless-3",
+      "sector": "Gambling (GambleFi)",
+      "mcap_usd": 11319921.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 0.194619227917899,
+      "p_s": 0.194619227917899,
+      "price_change_30d_pct": -25.872298388483777
+    },
+    {
+      "symbol": "MSUSD",
+      "cg_id": "metronome-synth-usd",
+      "sector": "Stablecoins",
+      "mcap_usd": 23364433.0,
+      "layers": [
+        "coil",
+        "narrative"
+      ],
+      "n_layers": 2,
+      "p_f": null,
+      "p_s": null,
+      "price_change_30d_pct": 0.08597047671153048
+    },
+    {
+      "symbol": "MON",
+      "cg_id": "monad",
+      "sector": "Layer 1 (L1)",
+      "mcap_usd": 235452949.0,
+      "layers": [
+        "cheap",
+        "trending"
+      ],
+      "n_layers": 2,
+      "p_f": 136.47889008993275,
+      "p_s": 181.7253613236881,
+      "price_change_30d_pct": -24.187501141655275
     },
     {
       "symbol": "QUICK",
@@ -110,6 +222,20 @@
       "price_change_30d_pct": -24.426823801215324
     },
     {
+      "symbol": "S",
+      "cg_id": "sonic-3",
+      "sector": "Layer 1 (L1)",
+      "mcap_usd": 89055747.0,
+      "layers": [
+        "cheap",
+        "gated"
+      ],
+      "n_layers": 2,
+      "p_f": 1956.6026298733398,
+      "p_s": 1956.6026298733398,
+      "price_change_30d_pct": -48.97193138541594
+    },
+    {
       "symbol": "SD",
       "cg_id": "stader",
       "sector": "Liquid Staking",
@@ -130,7 +256,7 @@
       "mcap_usd": 60324850.0,
       "layers": [
         "gated",
-        "trending"
+        "narrative"
       ],
       "n_layers": 2,
       "p_f": 4034.342432314946,
@@ -202,15 +328,62 @@
       "p_s": 0.19,
       "mc_tvl": 13.37,
       "fdv_mc": 7.61,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.01,
       "p_s_pctile": 0.02,
       "mc_tvl_pctile": 0.7,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "CARDS",
+      "cg_id": "collector-crypt",
+      "sector": "Trading Card RWA Platform",
+      "mcap_usd": 76180130.0,
+      "fdv_usd": 592290000.0,
+      "price_usd": 0.3,
+      "turnover": 0.22,
+      "float_ratio": 0.13,
+      "price_change_7d_pct": 22.91,
+      "price_change_30d_pct": 89.74,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 15154815.0,
+      "revenue_30d_usd": 15154815.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 0.41,
+      "p_s": 0.41,
+      "mc_tvl": null,
+      "fdv_mc": 7.77,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.03,
+      "p_s_pctile": 0.04,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": null
       },
       "divergences": {
         "D1_cheap_and_growing": null,
@@ -249,12 +422,12 @@
       "p_s": 7.95,
       "mc_tvl": 0.01,
       "fdv_mc": 1.19,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.03,
       "p_s_pctile": 0.3,
       "mc_tvl_pctile": 0.05,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -269,7 +442,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -296,12 +469,12 @@
       "p_s": 1.7,
       "mc_tvl": 0.33,
       "fdv_mc": 5.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.17,
       "p_s_pctile": 0.04,
       "mc_tvl_pctile": 0.41,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -316,7 +489,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -343,12 +516,12 @@
       "p_s": 1.56,
       "mc_tvl": null,
       "fdv_mc": 1.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.06,
       "p_s_pctile": 0.06,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -363,7 +536,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -390,12 +563,12 @@
       "p_s": 4.36,
       "mc_tvl": 0.02,
       "fdv_mc": 1.31,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.07,
       "p_s_pctile": 0.13,
       "mc_tvl_pctile": 0.1,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -410,7 +583,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -437,12 +610,12 @@
       "p_s": 834.44,
       "mc_tvl": 2.7,
       "fdv_mc": 1.48,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.08,
       "p_s_pctile": 0.25,
       "mc_tvl_pctile": 0.53,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -457,7 +630,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -484,12 +657,12 @@
       "p_s": 4.03,
       "mc_tvl": 0.06,
       "fdv_mc": 2.05,
-      "real_yield": null,
+      "real_yield": 6.92,
       "p_f_pctile": 0.1,
       "p_s_pctile": 0.09,
       "mc_tvl_pctile": 0.18,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -504,7 +677,54 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "MON",
+      "cg_id": "monad",
+      "sector": "Layer 1 (L1)",
+      "mcap_usd": 235452949.0,
+      "fdv_usd": 2003831846.52,
+      "price_usd": 0.02,
+      "turnover": 0.06,
+      "float_ratio": 0.12,
+      "price_change_7d_pct": -9.13,
+      "price_change_30d_pct": -24.19,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 141797.0,
+      "revenue_30d_usd": 106492.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 136.48,
+      "p_s": 181.73,
+      "mc_tvl": null,
+      "fdv_mc": 8.51,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.15,
+      "p_s_pctile": 0.12,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 2,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -531,12 +751,12 @@
       "p_s": 8.6,
       "mc_tvl": null,
       "fdv_mc": 2.09,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.13,
       "p_s_pctile": 0.21,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -551,7 +771,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -625,12 +845,12 @@
       "p_s": 37.96,
       "mc_tvl": 0.04,
       "fdv_mc": 2.09,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.16,
       "p_s_pctile": 0.46,
       "mc_tvl_pctile": 0.1,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -645,7 +865,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -672,12 +892,12 @@
       "p_s": 5.16,
       "mc_tvl": null,
       "fdv_mc": 1.73,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.24,
       "p_s_pctile": 0.17,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -692,7 +912,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -719,12 +939,12 @@
       "p_s": 13.65,
       "mc_tvl": 0.14,
       "fdv_mc": 4.51,
-      "real_yield": null,
+      "real_yield": 0.1,
       "p_f_pctile": 0.21,
       "p_s_pctile": 0.39,
       "mc_tvl_pctile": 0.26,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -766,12 +986,12 @@
       "p_s": 5.21,
       "mc_tvl": 0.18,
       "fdv_mc": 1.68,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.28,
       "p_s_pctile": 0.22,
       "mc_tvl_pctile": 0.31,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -786,7 +1006,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -813,12 +1033,12 @@
       "p_s": 9.19,
       "mc_tvl": null,
       "fdv_mc": 2.22,
-      "real_yield": null,
+      "real_yield": 1.69,
       "p_f_pctile": 0.27,
       "p_s_pctile": 0.23,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -833,7 +1053,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -860,12 +1080,12 @@
       "p_s": 1956.6,
       "mc_tvl": null,
       "fdv_mc": 1.03,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.23,
       "p_s_pctile": 0.38,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -880,7 +1100,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -907,12 +1127,12 @@
       "p_s": 9.73,
       "mc_tvl": 34.24,
       "fdv_mc": 1.88,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.29,
       "p_s_pctile": 0.25,
       "mc_tvl_pctile": 0.76,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -927,9 +1147,55 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "EDGE",
+      "cg_id": "definitive",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 14837201.0,
+      "fdv_usd": 58590000.0,
+      "price_usd": 0.06,
+      "turnover": 0.11,
+      "float_ratio": 0.25,
+      "price_change_7d_pct": -8.31,
+      "price_change_30d_pct": -36.72,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 206539.0,
+      "revenue_30d_usd": 206539.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 5.9,
+      "p_s": 5.9,
+      "mc_tvl": null,
+      "fdv_mc": 3.95,
+      "real_yield": 4.46,
+      "p_f_pctile": 0.41,
+      "p_s_pctile": 0.26,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 2,
+      "pending": [
         "D3_adoption"
       ]
     },
@@ -954,151 +1220,13 @@
       "p_s": 11.21,
       "mc_tvl": 2.54,
       "fdv_mc": 5.49,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.3,
       "p_s_pctile": 0.27,
       "mc_tvl_pctile": 0.52,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
-        "G3_liquidity": true,
-        "G4_not_wash": true
-      },
-      "divergences": {
-        "D1_cheap_and_growing": false,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 2,
-      "pending": [
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "PLUME",
-      "cg_id": "plume",
-      "sector": "Layer 1 (L1)",
-      "mcap_usd": 61492250.0,
-      "fdv_usd": 103005600.0,
-      "price_usd": 0.01,
-      "turnover": 0.07,
-      "float_ratio": 0.6,
-      "price_change_7d_pct": -6.38,
-      "price_change_30d_pct": -33.05,
-      "protocol_tvl_usd": null,
-      "fees_30d_usd": 2163.0,
-      "revenue_30d_usd": null,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 2336.64,
-      "p_s": null,
-      "mc_tvl": null,
-      "fdv_mc": 1.68,
-      "real_yield": null,
-      "p_f_pctile": 0.31,
-      "p_s_pctile": null,
-      "mc_tvl_pctile": null,
-      "gates": {
-        "G1_real_yield": null,
-        "G2_clean_float": true,
-        "G3_liquidity": true,
-        "G4_not_wash": null
-      },
-      "divergences": {
-        "D1_cheap_and_growing": false,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 2,
-      "pending": [
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "BLUE",
-      "cg_id": "bluefin",
-      "sector": "Decentralized Finance (DeFi)",
-      "mcap_usd": 5726212.0,
-      "fdv_usd": 10900800.0,
-      "price_usd": 0.01,
-      "turnover": 0.21,
-      "float_ratio": 0.53,
-      "price_change_7d_pct": -6.1,
-      "price_change_30d_pct": -34.26,
-      "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 93890.0,
-      "revenue_30d_usd": 23542.0,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 5.01,
-      "p_s": 19.99,
-      "mc_tvl": null,
-      "fdv_mc": 1.9,
-      "real_yield": null,
-      "p_f_pctile": 0.31,
-      "p_s_pctile": 0.48,
-      "mc_tvl_pctile": null,
-      "gates": {
-        "G1_real_yield": null,
-        "G2_clean_float": true,
-        "G3_liquidity": true,
-        "G4_not_wash": null
-      },
-      "divergences": {
-        "D1_cheap_and_growing": false,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 2,
-      "pending": [
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "AVNT",
-      "cg_id": "avantis",
-      "sector": "Decentralized Finance (DeFi)",
-      "mcap_usd": 36820701.0,
-      "fdv_usd": 113324000.0,
-      "price_usd": 0.11,
-      "turnover": 0.74,
-      "float_ratio": 0.32,
-      "price_change_7d_pct": 0.89,
-      "price_change_30d_pct": -26.62,
-      "protocol_tvl_usd": 32730973.24,
-      "fees_30d_usd": 596003.0,
-      "revenue_30d_usd": 0.0,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 5.08,
-      "p_s": null,
-      "mc_tvl": 1.12,
-      "fdv_mc": 3.08,
-      "real_yield": null,
-      "p_f_pctile": 0.34,
-      "p_s_pctile": null,
-      "mc_tvl_pctile": 0.51,
-      "gates": {
-        "G1_real_yield": null,
-        "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
       },
@@ -1118,7 +1246,707 @@
       ]
     }
   ],
-  "real_yield_board": [],
+  "real_yield_board": [
+    {
+      "symbol": "ATH",
+      "cg_id": "aethir",
+      "sector": "Artificial Intelligence (AI)",
+      "mcap_usd": 87990566.0,
+      "fdv_usd": 183692040.0,
+      "price_usd": 0.0,
+      "turnover": 0.1,
+      "float_ratio": 0.48,
+      "price_change_7d_pct": -11.98,
+      "price_change_30d_pct": -29.67,
+      "protocol_tvl_usd": 0.0,
+      "fees_30d_usd": 4203056.0,
+      "revenue_30d_usd": 840610.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 1.72,
+      "p_s": 8.6,
+      "mc_tvl": null,
+      "fdv_mc": 2.09,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.13,
+      "p_s_pctile": 0.21,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "ANKR",
+      "cg_id": "ankr",
+      "sector": "Liquid Staking",
+      "mcap_usd": 35439222.0,
+      "fdv_usd": 35437000.0,
+      "price_usd": 0.0,
+      "turnover": 0.16,
+      "float_ratio": 1.0,
+      "price_change_7d_pct": -10.08,
+      "price_change_30d_pct": -24.43,
+      "protocol_tvl_usd": 18757097.97,
+      "fees_30d_usd": 65688.0,
+      "revenue_30d_usd": 6568.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 44.34,
+      "p_s": 443.49,
+      "mc_tvl": 1.89,
+      "fdv_mc": 1.0,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.49,
+      "p_s_pctile": 0.71,
+      "mc_tvl_pctile": 0.46,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "APR",
+      "cg_id": "apriori",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 48035919.0,
+      "fdv_usd": 194665000.0,
+      "price_usd": 0.19,
+      "turnover": 0.05,
+      "float_ratio": 0.25,
+      "price_change_7d_pct": -3.33,
+      "price_change_30d_pct": 11.29,
+      "protocol_tvl_usd": 539454.36,
+      "fees_30d_usd": 5860.0,
+      "revenue_30d_usd": 886.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 673.75,
+      "p_s": 4456.16,
+      "mc_tvl": 89.05,
+      "fdv_mc": 4.05,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.9,
+      "p_s_pctile": 0.96,
+      "mc_tvl_pctile": 0.85,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": null,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D3_adoption",
+        "T1_fading"
+      ]
+    },
+    {
+      "symbol": "BANANA",
+      "cg_id": "banana-gun",
+      "sector": "Telegram Apps",
+      "mcap_usd": 10969954.0,
+      "fdv_usd": 27300000.0,
+      "price_usd": 2.73,
+      "turnover": 0.32,
+      "float_ratio": 0.4,
+      "price_change_7d_pct": -9.32,
+      "price_change_30d_pct": -29.48,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 27354.0,
+      "revenue_30d_usd": 27354.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 32.96,
+      "p_s": 32.96,
+      "mc_tvl": null,
+      "fdv_mc": 2.49,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.44,
+      "p_s_pctile": 0.42,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "BNKR",
+      "cg_id": "bankercoin-2",
+      "sector": "Artificial Intelligence (AI)",
+      "mcap_usd": 41216195.0,
+      "fdv_usd": 41214000.0,
+      "price_usd": 0.0,
+      "turnover": 0.04,
+      "float_ratio": 1.0,
+      "price_change_7d_pct": -13.9,
+      "price_change_30d_pct": -23.48,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 5422974.0,
+      "revenue_30d_usd": 2169187.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 0.62,
+      "p_s": 1.56,
+      "mc_tvl": null,
+      "fdv_mc": 1.0,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.06,
+      "p_s_pctile": 0.06,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "BTW",
+      "cg_id": "bitway",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 213842638.0,
+      "fdv_usd": 979660000.0,
+      "price_usd": 0.1,
+      "turnover": 0.16,
+      "float_ratio": 0.22,
+      "price_change_7d_pct": 49.85,
+      "price_change_30d_pct": 609.91,
+      "protocol_tvl_usd": 60738996.26,
+      "fees_30d_usd": 481973.0,
+      "revenue_30d_usd": 94152.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 36.47,
+      "p_s": 186.68,
+      "mc_tvl": 3.52,
+      "fdv_mc": 4.58,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.76,
+      "p_s_pctile": 0.74,
+      "mc_tvl_pctile": 0.64,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "CHIP",
+      "cg_id": "chip-2",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 63967086.0,
+      "fdv_usd": 320007800.0,
+      "price_usd": 0.03,
+      "turnover": 0.15,
+      "float_ratio": 0.2,
+      "price_change_7d_pct": -7.83,
+      "price_change_30d_pct": -35.48,
+      "protocol_tvl_usd": 195762145.14,
+      "fees_30d_usd": 4381297.0,
+      "revenue_30d_usd": 3087402.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 1.2,
+      "p_s": 1.7,
+      "mc_tvl": 0.33,
+      "fdv_mc": 5.0,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.17,
+      "p_s_pctile": 0.04,
+      "mc_tvl_pctile": 0.41,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "CARDS",
+      "cg_id": "collector-crypt",
+      "sector": "Trading Card RWA Platform",
+      "mcap_usd": 76180130.0,
+      "fdv_usd": 592290000.0,
+      "price_usd": 0.3,
+      "turnover": 0.22,
+      "float_ratio": 0.13,
+      "price_change_7d_pct": 22.91,
+      "price_change_30d_pct": 89.74,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 15154815.0,
+      "revenue_30d_usd": 15154815.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 0.41,
+      "p_s": 0.41,
+      "mc_tvl": null,
+      "fdv_mc": 7.77,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.03,
+      "p_s_pctile": 0.04,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 2,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "COW",
+      "cg_id": "cow-protocol",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 88583328.0,
+      "fdv_usd": 153190000.0,
+      "price_usd": 0.15,
+      "turnover": 0.05,
+      "float_ratio": 0.58,
+      "price_change_7d_pct": -3.63,
+      "price_change_30d_pct": -7.36,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 2010198.0,
+      "revenue_30d_usd": 1410535.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 3.62,
+      "p_s": 5.16,
+      "mc_tvl": null,
+      "fdv_mc": 1.73,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.24,
+      "p_s_pctile": 0.17,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "DBR",
+      "cg_id": "debridge",
+      "sector": "Bridge Governance Tokens",
+      "mcap_usd": 80492262.0,
+      "fdv_usd": 151153400.0,
+      "price_usd": 0.02,
+      "turnover": 0.02,
+      "float_ratio": 0.53,
+      "price_change_7d_pct": 3.29,
+      "price_change_30d_pct": 9.15,
+      "protocol_tvl_usd": 2350687.09,
+      "fees_30d_usd": 679591.0,
+      "revenue_30d_usd": 679591.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 9.73,
+      "p_s": 9.73,
+      "mc_tvl": 34.24,
+      "fdv_mc": 1.88,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.29,
+      "p_s_pctile": 0.25,
+      "mc_tvl_pctile": 0.76,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "ENS",
+      "cg_id": "ethereum-name-service",
+      "sector": "NFT",
+      "mcap_usd": 177322530.0,
+      "fdv_usd": 439000000.0,
+      "price_usd": 4.39,
+      "turnover": 0.06,
+      "float_ratio": 0.4,
+      "price_change_7d_pct": -17.95,
+      "price_change_30d_pct": -30.98,
+      "protocol_tvl_usd": null,
+      "fees_30d_usd": 139276.0,
+      "revenue_30d_usd": 139276.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 104.64,
+      "p_s": 104.64,
+      "mc_tvl": null,
+      "fdv_mc": 2.48,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.6,
+      "p_s_pctile": 0.54,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "G",
+      "cg_id": "g-token",
+      "sector": "Layer 1 (L1)",
+      "mcap_usd": 22977690.0,
+      "fdv_usd": 37882080.0,
+      "price_usd": 0.0,
+      "turnover": 3.49,
+      "float_ratio": 0.6,
+      "price_change_7d_pct": 15.08,
+      "price_change_30d_pct": -10.87,
+      "protocol_tvl_usd": 18177479.68,
+      "fees_30d_usd": 743.0,
+      "revenue_30d_usd": 743.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 2541.83,
+      "p_s": 2541.83,
+      "mc_tvl": 1.26,
+      "fdv_mc": 1.65,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.38,
+      "p_s_pctile": 0.5,
+      "mc_tvl_pctile": 0.4,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "HYPER",
+      "cg_id": "hyperlane",
+      "sector": "Infrastructure",
+      "mcap_usd": 25859511.0,
+      "fdv_usd": 76559000.0,
+      "price_usd": 0.08,
+      "turnover": 2.12,
+      "float_ratio": 0.34,
+      "price_change_7d_pct": -3.24,
+      "price_change_30d_pct": -25.61,
+      "protocol_tvl_usd": 91642693.98,
+      "fees_30d_usd": 10753.0,
+      "revenue_30d_usd": 10753.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 197.66,
+      "p_s": 197.66,
+      "mc_tvl": 0.28,
+      "fdv_mc": 2.96,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.66,
+      "p_s_pctile": 0.63,
+      "mc_tvl_pctile": 0.24,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "LDO",
+      "cg_id": "lido-dao",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 215896376.0,
+      "fdv_usd": 255952000.0,
+      "price_usd": 0.26,
+      "turnover": 0.1,
+      "float_ratio": 0.84,
+      "price_change_7d_pct": -12.5,
+      "price_change_30d_pct": -26.19,
+      "protocol_tvl_usd": 14976334717.07,
+      "fees_30d_usd": 35569735.0,
+      "revenue_30d_usd": 2231574.0,
+      "gh_commits_4w": 30.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 0.5,
+      "p_s": 7.95,
+      "mc_tvl": 0.01,
+      "fdv_mc": 1.19,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.03,
+      "p_s_pctile": 0.3,
+      "mc_tvl_pctile": 0.05,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "LMTS",
+      "cg_id": "limitless-3",
+      "sector": "Gambling (GambleFi)",
+      "mcap_usd": 11319921.0,
+      "fdv_usd": 86115000.0,
+      "price_usd": 0.09,
+      "turnover": 0.2,
+      "float_ratio": 0.13,
+      "price_change_7d_pct": 1.21,
+      "price_change_30d_pct": -25.87,
+      "protocol_tvl_usd": 846365.3,
+      "fees_30d_usd": 4780640.0,
+      "revenue_30d_usd": 4780640.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 0.19,
+      "p_s": 0.19,
+      "mc_tvl": 13.37,
+      "fdv_mc": 7.61,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.01,
+      "p_s_pctile": 0.02,
+      "mc_tvl_pctile": 0.7,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": null,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "pending": [
+        "D1_growth",
+        "D3_adoption"
+      ]
+    }
+  ],
   "builder_signals": [
     {
       "symbol": "STORJ",
@@ -1417,12 +2245,12 @@
       "p_s": null,
       "mc_tvl": 0.03,
       "fdv_mc": 1.66,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.69,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.06,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -1463,12 +2291,12 @@
       "p_s": 7.95,
       "mc_tvl": 0.01,
       "fdv_mc": 1.19,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.03,
       "p_s_pctile": 0.3,
       "mc_tvl_pctile": 0.05,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -1483,7 +2311,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -2082,263 +2910,270 @@
     "method": "CoinGecko category momentum (24h mcap change + constituent 7d breadth/median); thematic narratives only (chain-ecosystem/stablecoin categories excluded)",
     "sectors": [
       {
-        "id": "echo-launchpad",
-        "name": "Echo Launchpad",
-        "market_cap_usd": 6555637938,
-        "mcap_change_24h_pct": 18.738033093295435,
-        "volume_24h_usd": 197016374.0176458,
-        "breadth_7d_pct": 50.0,
-        "median_7d_pct": 52.3,
+        "id": "decentralized-social-media-desoc",
+        "name": "Decentralized Social Media (DeSOC)",
+        "market_cap_usd": 34932499,
+        "mcap_change_24h_pct": -0.22412873709177955,
+        "volume_24h_usd": 5737.857624171211,
+        "breadth_7d_pct": 80.0,
+        "median_7d_pct": 2.3,
         "leaders": [
           {
-            "name": "LAB",
-            "symbol": "LAB",
-            "price_change_7d_pct": 52.3270011762935,
-            "price_change_30d_pct": 364.27432718361115,
-            "market_cap_usd": 6313054350.0
+            "name": "Bitsocial",
+            "symbol": "BSO",
+            "price_change_7d_pct": 1120991.5991663416,
+            "price_change_30d_pct": 1120991.5991663416,
+            "market_cap_usd": 1928730.0
           },
           {
-            "name": "Plasma",
-            "symbol": "XPL",
-            "price_change_7d_pct": -21.132046833863246,
-            "price_change_30d_pct": 7.107270882536025,
-            "market_cap_usd": 223760013.0
+            "name": "Decentralized Social",
+            "symbol": "DESO",
+            "price_change_7d_pct": 12.28679680322026,
+            "price_change_30d_pct": -17.466820320474568,
+            "market_cap_usd": 33056314.0
+          },
+          {
+            "name": "AnChat",
+            "symbol": "ANCHAT",
+            "price_change_7d_pct": 2.2829427316559796,
+            "price_change_30d_pct": -40.32228564970361,
+            "market_cap_usd": 14448.37
           }
         ],
         "signals": [
-          "rotating_in"
+          "broad_heating"
         ],
-        "rank_key": 81.04
+        "rank_key": 18.08
       },
       {
         "id": "midas-liquid-yield-tokens",
         "name": "Midas Liquid Yield Tokens",
-        "market_cap_usd": 289593730,
-        "mcap_change_24h_pct": 5.184509422281816,
-        "volume_24h_usd": 211206.28298824382,
+        "market_cap_usd": 292186226,
+        "mcap_change_24h_pct": 6.126140232200472,
+        "volume_24h_usd": 159686.96347362158,
         "breadth_7d_pct": 56.2,
         "median_7d_pct": 0.1,
         "leaders": [
           {
             "name": "Midas mF-ONE",
             "symbol": "MF-ONE",
-            "price_change_7d_pct": 0.2620161857321421,
-            "price_change_30d_pct": 0.9727637325364373,
-            "market_cap_usd": 69901733.0
+            "price_change_7d_pct": 0.24757039893329924,
+            "price_change_30d_pct": 1.0392203688086332,
+            "market_cap_usd": 69950522.0
           },
           {
             "name": "Midas mHYPER",
             "symbol": "MHYPER",
             "price_change_7d_pct": 0.19840018110302454,
             "price_change_30d_pct": 0.8355711930072429,
-            "market_cap_usd": 33672902.0
+            "market_cap_usd": 33714527.0
           },
           {
             "name": "Midas mEDGE",
             "symbol": "MEDGE",
             "price_change_7d_pct": 0.17553593070979026,
             "price_change_30d_pct": 0.6829483623871818,
-            "market_cap_usd": 2280660.0
+            "market_cap_usd": 2256585.0
           }
         ],
         "signals": [
           "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 16.52
+        "rank_key": 17.47
       },
       {
-        "id": "analytics",
-        "name": "Analytics",
-        "market_cap_usd": 7692716060,
-        "mcap_change_24h_pct": 14.624358270004345,
-        "volume_24h_usd": 193036121.18925577,
-        "breadth_7d_pct": 16.0,
-        "median_7d_pct": -7.8,
-        "leaders": [
-          {
-            "name": "LAB",
-            "symbol": "LAB",
-            "price_change_7d_pct": 52.3270011762935,
-            "price_change_30d_pct": 364.27432718361115,
-            "market_cap_usd": 6313054350.0
-          },
-          {
-            "name": "BNB Attestation Service",
-            "symbol": "BAS",
-            "price_change_7d_pct": 39.883014179854804,
-            "price_change_30d_pct": 86.28143450210915,
-            "market_cap_usd": 105800326.0
-          },
-          {
-            "name": "Levva Protocol",
-            "symbol": "LVVA",
-            "price_change_7d_pct": 15.830852392122813,
-            "price_change_30d_pct": -65.1953083578798,
-            "market_cap_usd": 659565.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 10.02
-      },
-      {
-        "id": "masternodes",
-        "name": "Masternodes",
-        "market_cap_usd": 1186850555,
-        "mcap_change_24h_pct": 1.3826511019195469,
-        "volume_24h_usd": 109029772.45600004,
-        "breadth_7d_pct": 40.9,
+        "id": "ohm-fork",
+        "name": "Ohm Fork",
+        "market_cap_usd": 36131685,
+        "mcap_change_24h_pct": 1.5738916324281316,
+        "volume_24h_usd": 7464.689621043617,
+        "breadth_7d_pct": 50.0,
         "median_7d_pct": 0.0,
         "leaders": [
           {
-            "name": "Morpheus Network",
-            "symbol": "MNW",
-            "price_change_7d_pct": 50.44887685315603,
-            "price_change_30d_pct": 86.2383832670573,
-            "market_cap_usd": 522046.0
-          },
-          {
-            "name": "Viction",
-            "symbol": "VIC",
-            "price_change_7d_pct": 13.21799097011258,
-            "price_change_30d_pct": -28.40497143716036,
-            "market_cap_usd": 5135838.0
-          },
-          {
-            "name": "SPACEM WORLD",
-            "symbol": "SPCM",
-            "price_change_7d_pct": 11.601533705893093,
-            "price_change_30d_pct": -11.333075518621074,
-            "market_cap_usd": 1948554.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 9.56
-      },
-      {
-        "id": "launchpad",
-        "name": "Launchpad",
-        "market_cap_usd": 9181087030,
-        "mcap_change_24h_pct": 11.17423097476198,
-        "volume_24h_usd": 302835190.2429395,
-        "breadth_7d_pct": 18.0,
-        "median_7d_pct": -5.9,
-        "leaders": [
-          {
-            "name": "LAB",
-            "symbol": "LAB",
-            "price_change_7d_pct": 52.3270011762935,
-            "price_change_30d_pct": 364.27432718361115,
-            "market_cap_usd": 6313054350.0
-          },
-          {
-            "name": "Immunefi",
-            "symbol": "IMU",
-            "price_change_7d_pct": 49.59834875975039,
-            "price_change_30d_pct": 1.544807496090008,
-            "market_cap_usd": 1698492.0
-          },
-          {
-            "name": "Meteora",
-            "symbol": "MET",
-            "price_change_7d_pct": 28.451678737974596,
-            "price_change_30d_pct": 8.898746053520684,
-            "market_cap_usd": 77828559.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 8.87
-      },
-      {
-        "id": "marketing",
-        "name": "Marketing",
-        "market_cap_usd": 63077042,
-        "mcap_change_24h_pct": 3.2533011959907037,
-        "volume_24h_usd": 6916009.696010345,
-        "breadth_7d_pct": 24.1,
-        "median_7d_pct": -4.2,
-        "leaders": [
-          {
-            "name": "Marina Protocol",
-            "symbol": "BAY",
-            "price_change_7d_pct": 22.280678167659584,
-            "price_change_30d_pct": -12.128492691165494,
-            "market_cap_usd": 2928983.0
-          },
-          {
-            "name": "BabyBoomToken",
-            "symbol": "BBT",
-            "price_change_7d_pct": 21.762991850162326,
-            "price_change_30d_pct": -9.428454065776304,
-            "market_cap_usd": 17091280.0
-          },
-          {
-            "name": "EMAIL Token",
-            "symbol": "EMT",
-            "price_change_7d_pct": 9.428725824039407,
-            "price_change_30d_pct": 33.182884286527816,
+            "name": "Templar DAO",
+            "symbol": "TEM",
+            "price_change_7d_pct": 0.29518090933538255,
+            "price_change_30d_pct": -0.7658089523857133,
             "market_cap_usd": 0.0
+          },
+          {
+            "name": "Snowbank",
+            "symbol": "SB",
+            "price_change_7d_pct": 0.022314849902428675,
+            "price_change_30d_pct": 1.383784063174183,
+            "market_cap_usd": 36194234.0
+          },
+          {
+            "name": "Wonderland TIME",
+            "symbol": "TIME",
+            "price_change_7d_pct": 0.0,
+            "price_change_30d_pct": -29.99463058240906,
+            "market_cap_usd": 10572.67
           }
         ],
         "signals": [],
-        "rank_key": 3.87
+        "rank_key": 11.57
+      },
+      {
+        "id": "synthetic-dollar",
+        "name": "Synthetic Dollar",
+        "market_cap_usd": 6293884112,
+        "mcap_change_24h_pct": 0.2762757011552746,
+        "volume_24h_usd": 125892838.73634586,
+        "breadth_7d_pct": 28.6,
+        "median_7d_pct": 0.0,
+        "leaders": [
+          {
+            "name": "Pareto Staked USP",
+            "symbol": "SUSP",
+            "price_change_7d_pct": 0.13043684109834391,
+            "price_change_30d_pct": 0.5592316861264741,
+            "market_cap_usd": 730957.0
+          },
+          {
+            "name": "eSui Dollar",
+            "symbol": "SUIUSDE",
+            "price_change_7d_pct": 0.05339491471079655,
+            "price_change_30d_pct": 0.007743494471115818,
+            "market_cap_usd": 13459298.0
+          },
+          {
+            "name": "Metronome Synth USD",
+            "symbol": "MSUSD",
+            "price_change_7d_pct": 0.05251189929893796,
+            "price_change_30d_pct": -0.03155567274141595,
+            "market_cap_usd": 30063216.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 6.0
+      },
+      {
+        "id": "bridge-governance-tokens",
+        "name": "Bridge Governance Tokens",
+        "market_cap_usd": 430437566,
+        "mcap_change_24h_pct": -0.24933231588467045,
+        "volume_24h_usd": 156157615.4273887,
+        "breadth_7d_pct": 28.6,
+        "median_7d_pct": -4.3,
+        "leaders": [
+          {
+            "name": "Synapse",
+            "symbol": "SYN",
+            "price_change_7d_pct": 411.25672471509745,
+            "price_change_30d_pct": 623.9725947068096,
+            "market_cap_usd": 70068419.0
+          },
+          {
+            "name": "Router Protocol",
+            "symbol": "ROUTE",
+            "price_change_7d_pct": 95.7704102702456,
+            "price_change_30d_pct": -63.41108449949997,
+            "market_cap_usd": 261061.0
+          },
+          {
+            "name": "Confidential Layer",
+            "symbol": "CLONE",
+            "price_change_7d_pct": 16.889573923763777,
+            "price_change_30d_pct": -14.997841310625498,
+            "market_cap_usd": 493073.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 1.17
       },
       {
         "id": "appchains",
         "name": "Appchains",
-        "market_cap_usd": 209288618,
-        "mcap_change_24h_pct": 4.908873043840059,
-        "volume_24h_usd": 38445964.54359171,
+        "market_cap_usd": 202713261,
+        "mcap_change_24h_pct": 1.61288258439816,
+        "volume_24h_usd": 44629717.478699945,
         "breadth_7d_pct": 20.0,
-        "median_7d_pct": -5.3,
+        "median_7d_pct": -7.3,
         "leaders": [
           {
             "name": "dYdX",
             "symbol": "DYDX",
-            "price_change_7d_pct": 17.866196279863473,
-            "price_change_30d_pct": -5.971799956271311,
-            "market_cap_usd": 123700914.0
+            "price_change_7d_pct": 14.504317190456362,
+            "price_change_30d_pct": -10.43279495268989,
+            "market_cap_usd": 119597594.0
           },
           {
             "name": "Geode Chain",
             "symbol": "GEODE",
-            "price_change_7d_pct": 8.17617586267238,
-            "price_change_30d_pct": 28.82172957421926,
-            "market_cap_usd": 22120015.0
+            "price_change_7d_pct": 8.797003663737003,
+            "price_change_30d_pct": 30.33870656252253,
+            "market_cap_usd": 22248436.0
           },
           {
             "name": "WPAY",
             "symbol": "WPAY",
-            "price_change_7d_pct": 3.15165019390858,
-            "price_change_30d_pct": 3.7116094970086917,
-            "market_cap_usd": 5066950.0
+            "price_change_7d_pct": 4.0014029331103345,
+            "price_change_30d_pct": 4.089562496078957,
+            "market_cap_usd": 5004208.0
           }
         ],
         "signals": [],
-        "rank_key": 3.61
+        "rank_key": -1.69
+      },
+      {
+        "id": "rebase-tokens",
+        "name": "Rebase Tokens",
+        "market_cap_usd": 43423664,
+        "mcap_change_24h_pct": 0.176678514159367,
+        "volume_24h_usd": 13590.393280428669,
+        "breadth_7d_pct": 18.2,
+        "median_7d_pct": -6.0,
+        "leaders": [
+          {
+            "name": "Templar DAO",
+            "symbol": "TEM",
+            "price_change_7d_pct": 0.29518090933538255,
+            "price_change_30d_pct": -0.7658089523857133,
+            "market_cap_usd": 0.0
+          },
+          {
+            "name": "Snowbank",
+            "symbol": "SB",
+            "price_change_7d_pct": 0.022314849902428675,
+            "price_change_30d_pct": 1.383784063174183,
+            "market_cap_usd": 36194234.0
+          },
+          {
+            "name": "Wonderland TIME",
+            "symbol": "TIME",
+            "price_change_7d_pct": 0.0,
+            "price_change_30d_pct": -29.99463058240906,
+            "market_cap_usd": 10572.67
+          }
+        ],
+        "signals": [],
+        "rank_key": -2.18
       },
       {
         "id": "arcade-games",
         "name": "Arcade Games",
-        "market_cap_usd": 526764880,
-        "mcap_change_24h_pct": 2.595856651072782,
-        "volume_24h_usd": 96757998.03466503,
-        "breadth_7d_pct": 23.1,
-        "median_7d_pct": -4.5,
+        "market_cap_usd": 513942352,
+        "mcap_change_24h_pct": 0.09846493782089388,
+        "volume_24h_usd": 99152435.96181396,
+        "breadth_7d_pct": 17.9,
+        "median_7d_pct": -6.6,
         "leaders": [
           {
             "name": "XGame",
             "symbol": "XGAME",
-            "price_change_7d_pct": 116.68495657242772,
-            "price_change_30d_pct": 209.54908913484172,
-            "market_cap_usd": 333994.0
+            "price_change_7d_pct": 95.29826657925054,
+            "price_change_30d_pct": 181.15263129783784,
+            "market_cap_usd": 303559.0
           },
           {
             "name": "SpaceFalcon",
             "symbol": "FCON",
-            "price_change_7d_pct": 23.991335821913868,
-            "price_change_30d_pct": 4.299262629226976,
-            "market_cap_usd": 44627.0
+            "price_change_7d_pct": 24.42143824364413,
+            "price_change_30d_pct": 6.241369603543393,
+            "market_cap_usd": 44632.0
           },
           {
             "name": "NFT Worlds",
@@ -2349,7 +3184,7 @@
           }
         ],
         "signals": [],
-        "rank_key": 2.72
+        "rank_key": -2.92
       }
     ]
   },
@@ -2357,118 +3192,118 @@
     "source": "CoinGecko /search/trending (search/view velocity = retail attention proxy)",
     "trending_coins": [
       {
-        "name": "Nesa",
-        "symbol": "NES",
-        "cg_id": "nesa",
-        "market_cap_rank": 494,
-        "price_change_24h_pct": -12.31659749780894
-      },
-      {
-        "name": "LAB",
-        "symbol": "LAB",
-        "cg_id": "lab",
-        "market_cap_rank": 17,
-        "price_change_24h_pct": 27.71476126318368
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "cg_id": "bitcoin",
+        "market_cap_rank": 1,
+        "price_change_24h_pct": -4.353248381623708
       },
       {
         "name": "Rain",
         "symbol": "RAIN",
         "cg_id": "rain",
         "market_cap_rank": 13,
-        "price_change_24h_pct": 1.0443970017120894
-      },
-      {
-        "name": "Pudgy Penguins",
-        "symbol": "PENGU",
-        "cg_id": "pudgy-penguins",
-        "market_cap_rank": 116,
-        "price_change_24h_pct": -3.9631009903274554
-      },
-      {
-        "name": "Collector Crypt",
-        "symbol": "CARDS",
-        "cg_id": "collector-crypt",
-        "market_cap_rank": 341,
-        "price_change_24h_pct": 2.831007215209069
-      },
-      {
-        "name": "Synapse",
-        "symbol": "SYN",
-        "cg_id": "synapse-2",
-        "market_cap_rank": 338,
-        "price_change_24h_pct": 17.403162908468506
-      },
-      {
-        "name": "Arcium",
-        "symbol": "ARX",
-        "cg_id": "arcium",
-        "market_cap_rank": 418,
-        "price_change_24h_pct": -27.515273130010108
-      },
-      {
-        "name": "Bitcoin",
-        "symbol": "BTC",
-        "cg_id": "bitcoin",
-        "market_cap_rank": 1,
-        "price_change_24h_pct": -2.3596107908287323
-      },
-      {
-        "name": "Sui",
-        "symbol": "SUI",
-        "cg_id": "sui",
-        "market_cap_rank": 33,
-        "price_change_24h_pct": -2.7805200283464733
-      },
-      {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "cg_id": "ethereum",
-        "market_cap_rank": 2,
-        "price_change_24h_pct": -1.0430485948299866
-      },
-      {
-        "name": "Solstice",
-        "symbol": "SLX",
-        "cg_id": "solstice",
-        "market_cap_rank": 362,
-        "price_change_24h_pct": 33.81028736460527
+        "price_change_24h_pct": 0.777625810727661
       },
       {
         "name": "Solana",
         "symbol": "SOL",
         "cg_id": "solana",
         "market_cap_rank": 7,
-        "price_change_24h_pct": -0.6217453046215858
+        "price_change_24h_pct": -4.247353819304129
       },
       {
-        "name": "Hyperliquid",
-        "symbol": "HYPE",
-        "cg_id": "hyperliquid",
-        "market_cap_rank": 10,
-        "price_change_24h_pct": -3.5456372786524177
+        "name": "Zano",
+        "symbol": "ZANO",
+        "cg_id": "zano",
+        "market_cap_rank": 196,
+        "price_change_24h_pct": 0.9797068274823226
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "cg_id": "pudgy-penguins",
+        "market_cap_rank": 117,
+        "price_change_24h_pct": -8.42538652436962
+      },
+      {
+        "name": "Collector Crypt",
+        "symbol": "CARDS",
+        "cg_id": "collector-crypt",
+        "market_cap_rank": 346,
+        "price_change_24h_pct": -8.010226696271026
+      },
+      {
+        "name": "Nesa",
+        "symbol": "NES",
+        "cg_id": "nesa",
+        "market_cap_rank": 501,
+        "price_change_24h_pct": -15.12774327328557
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "cg_id": "ethereum",
+        "market_cap_rank": 2,
+        "price_change_24h_pct": -5.169268060622434
       },
       {
         "name": "Aave",
         "symbol": "AAVE",
         "cg_id": "aave",
         "market_cap_rank": 61,
-        "price_change_24h_pct": 4.670177367014242
+        "price_change_24h_pct": 4.680357539581208
       },
       {
-        "name": "Aerodrome Finance",
-        "symbol": "AERO",
-        "cg_id": "aerodrome-finance",
-        "market_cap_rank": 105,
-        "price_change_24h_pct": -1.9501707740372445
+        "name": "Hyperliquid",
+        "symbol": "HYPE",
+        "cg_id": "hyperliquid",
+        "market_cap_rank": 10,
+        "price_change_24h_pct": -2.6898922268224665
+      },
+      {
+        "name": "XRP",
+        "symbol": "XRP",
+        "cg_id": "ripple",
+        "market_cap_rank": 6,
+        "price_change_24h_pct": -3.548474630214222
+      },
+      {
+        "name": "Monad",
+        "symbol": "MON",
+        "cg_id": "monad",
+        "market_cap_rank": 142,
+        "price_change_24h_pct": -2.8730926803159704
+      },
+      {
+        "name": "Zcash",
+        "symbol": "ZEC",
+        "cg_id": "zcash",
+        "market_cap_rank": 15,
+        "price_change_24h_pct": -2.6613299570731854
+      },
+      {
+        "name": "Kaspa",
+        "symbol": "KAS",
+        "cg_id": "kaspa",
+        "market_cap_rank": 80,
+        "price_change_24h_pct": -4.990149688087844
+      },
+      {
+        "name": "Backpack",
+        "symbol": "BP",
+        "cg_id": "backpack",
+        "market_cap_rank": 200,
+        "price_change_24h_pct": 0.3008093531462568
       }
     ],
     "trending_categories": [
-      "Echo Launchpad",
-      "Analytics",
-      "Launchpad",
-      "Binance Alpha Spotlight",
+      "Trading Card RWA Platform",
       "Index Coop Defi Index",
-      "Yield Farming"
+      "Parallelized EVM",
+      "Quantum-Resistant",
+      "Zero Knowledge (ZK)",
+      "Lending/Borrowing Protocols"
     ]
   },
   "coil_lookalikes": {
@@ -3417,6 +4252,20 @@
         "days_since_release": null,
         "component_release": false,
         "fresh_release": false
+      },
+      {
+        "symbol": "ANKR",
+        "cg_id": "ankr",
+        "repo": "Ankr-network/dccn-common",
+        "latest_release": null,
+        "release_name": null,
+        "release_url": null,
+        "release_notes": null,
+        "dimension_hint": [],
+        "release_date": null,
+        "days_since_release": null,
+        "component_release": false,
+        "fresh_release": false
       }
     ],
     "governance": []
@@ -3857,12 +4706,12 @@
       "p_s": 8.6,
       "mc_tvl": null,
       "fdv_mc": 2.09,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.13,
       "p_s_pctile": 0.21,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -3877,7 +4726,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -4732,12 +5581,12 @@
       "p_s": 443.49,
       "mc_tvl": 1.89,
       "fdv_mc": 1.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.49,
       "p_s_pctile": 0.71,
       "mc_tvl_pctile": 0.46,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -4752,7 +5601,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -4962,12 +5811,12 @@
       "p_s": 532.42,
       "mc_tvl": 2.15,
       "fdv_mc": 1.21,
-      "real_yield": null,
+      "real_yield": 0.07,
       "p_f_pctile": 0.69,
       "p_s_pctile": 0.87,
       "mc_tvl_pctile": 0.59,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -5008,12 +5857,12 @@
       "p_s": 4456.16,
       "mc_tvl": 89.05,
       "fdv_mc": 4.05,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.9,
       "p_s_pctile": 0.96,
       "mc_tvl_pctile": 0.85,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -5028,7 +5877,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -5699,12 +6548,12 @@
       "p_s": null,
       "mc_tvl": 1.12,
       "fdv_mc": 3.08,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.34,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.51,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -5791,12 +6640,12 @@
       "p_s": 102.52,
       "mc_tvl": null,
       "fdv_mc": 1.55,
-      "real_yield": null,
+      "real_yield": 0.28,
       "p_f_pctile": 0.59,
       "p_s_pctile": 0.52,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -6113,12 +6962,12 @@
       "p_s": 32.96,
       "mc_tvl": null,
       "fdv_mc": 2.49,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.44,
       "p_s_pctile": 0.42,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -6133,7 +6982,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -6205,12 +7054,12 @@
       "p_s": 1.56,
       "mc_tvl": null,
       "fdv_mc": 1.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.06,
       "p_s_pctile": 0.06,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -6225,7 +7074,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -6574,12 +7423,12 @@
       "p_s": 3833.44,
       "mc_tvl": null,
       "fdv_mc": 1.95,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.46,
       "p_s_pctile": 0.62,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -7080,12 +7929,12 @@
       "p_s": 186.68,
       "mc_tvl": 3.52,
       "fdv_mc": 4.58,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.76,
       "p_s_pctile": 0.74,
       "mc_tvl_pctile": 0.64,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -7100,7 +7949,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -7218,12 +8067,12 @@
       "p_s": 19.99,
       "mc_tvl": null,
       "fdv_mc": 1.9,
-      "real_yield": null,
+      "real_yield": 0.08,
       "p_f_pctile": 0.31,
       "p_s_pctile": 0.48,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -7264,12 +8113,12 @@
       "p_s": 1785990.49,
       "mc_tvl": 3.36,
       "fdv_mc": 1.06,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 1.0,
       "p_s_pctile": 1.0,
       "mc_tvl_pctile": 0.57,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -8967,12 +9816,12 @@
       "p_s": 1.7,
       "mc_tvl": 0.33,
       "fdv_mc": 5.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.17,
       "p_s_pctile": 0.04,
       "mc_tvl_pctile": 0.41,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -8987,7 +9836,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -9428,12 +10277,12 @@
       "p_s": 0.41,
       "mc_tvl": null,
       "fdv_mc": 7.77,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.03,
       "p_s_pctile": 0.04,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -9448,7 +10297,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 1,
+      "gates_passed": 2,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -9797,12 +10646,12 @@
       "p_s": 12.39,
       "mc_tvl": 0.22,
       "fdv_mc": 1.09,
-      "real_yield": null,
+      "real_yield": 0.46,
       "p_f_pctile": 0.48,
       "p_s_pctile": 0.35,
       "mc_tvl_pctile": 0.36,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -10119,12 +10968,12 @@
       "p_s": 5.16,
       "mc_tvl": null,
       "fdv_mc": 1.73,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.24,
       "p_s_pctile": 0.17,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -10139,7 +10988,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -10442,12 +11291,12 @@
       "p_s": 9.73,
       "mc_tvl": 34.24,
       "fdv_mc": 1.88,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.29,
       "p_s_pctile": 0.25,
       "mc_tvl_pctile": 0.76,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -10462,7 +11311,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -10627,12 +11476,12 @@
       "p_s": 5.9,
       "mc_tvl": null,
       "fdv_mc": 3.95,
-      "real_yield": null,
+      "real_yield": 4.46,
       "p_f_pctile": 0.41,
       "p_s_pctile": 0.26,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -10647,7 +11496,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 1,
+      "gates_passed": 2,
       "pending": [
         "D3_adoption"
       ]
@@ -11133,12 +11982,12 @@
       "p_s": 4.03,
       "mc_tvl": 0.06,
       "fdv_mc": 2.05,
-      "real_yield": null,
+      "real_yield": 6.92,
       "p_f_pctile": 0.1,
       "p_s_pctile": 0.09,
       "mc_tvl_pctile": 0.18,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -11153,7 +12002,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -12054,12 +12903,12 @@
       "p_s": 104.64,
       "mc_tvl": null,
       "fdv_mc": 2.48,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.6,
       "p_s_pctile": 0.54,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -12074,7 +12923,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -12468,12 +13317,12 @@
       "p_s": null,
       "mc_tvl": 0.15,
       "fdv_mc": 3.48,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.79,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.28,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -13342,12 +14191,12 @@
       "p_s": 2541.83,
       "mc_tvl": 1.26,
       "fdv_mc": 1.65,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.38,
       "p_s_pctile": 0.5,
       "mc_tvl_pctile": 0.4,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -13362,7 +14211,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -13572,12 +14421,12 @@
       "p_s": 9.19,
       "mc_tvl": null,
       "fdv_mc": 2.22,
-      "real_yield": null,
+      "real_yield": 1.69,
       "p_f_pctile": 0.27,
       "p_s_pctile": 0.23,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -13592,7 +14441,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -14861,12 +15710,12 @@
       "p_s": 197.66,
       "mc_tvl": 0.28,
       "fdv_mc": 2.96,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.66,
       "p_s_pctile": 0.63,
       "mc_tvl_pctile": 0.24,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -14881,7 +15730,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -15045,12 +15894,12 @@
       "p_s": 136.71,
       "mc_tvl": null,
       "fdv_mc": 1.16,
-      "real_yield": null,
+      "real_yield": 460.11,
       "p_f_pctile": 0.64,
       "p_s_pctile": 0.56,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -15065,7 +15914,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -16656,12 +17505,12 @@
       "p_s": 48.61,
       "mc_tvl": null,
       "fdv_mc": 2.05,
-      "real_yield": null,
+      "real_yield": 0.05,
       "p_f_pctile": 0.5,
       "p_s_pctile": 0.48,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -16748,12 +17597,12 @@
       "p_s": 7.95,
       "mc_tvl": 0.01,
       "fdv_mc": 1.19,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.03,
       "p_s_pctile": 0.3,
       "mc_tvl_pctile": 0.05,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -16768,7 +17617,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -16795,12 +17644,12 @@
       "p_s": 0.19,
       "mc_tvl": 13.37,
       "fdv_mc": 7.61,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.01,
       "p_s_pctile": 0.02,
       "mc_tvl_pctile": 0.7,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -16815,7 +17664,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -18590,12 +19439,12 @@
       "p_s": 156.17,
       "mc_tvl": 7.24,
       "fdv_mc": 4.9,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.72,
       "p_s_pctile": 0.7,
       "mc_tvl_pctile": 0.72,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -18610,7 +19459,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -18636,12 +19485,12 @@
       "p_s": 181.73,
       "mc_tvl": null,
       "fdv_mc": 8.51,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.15,
       "p_s_pctile": 0.12,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -18656,7 +19505,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 1,
+      "gates_passed": 2,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -18729,12 +19578,12 @@
       "p_s": null,
       "mc_tvl": null,
       "fdv_mc": 1.05,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": null,
       "p_s_pctile": null,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -18959,12 +19808,12 @@
       "p_s": 246017.67,
       "mc_tvl": null,
       "fdv_mc": 2.5,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 1.0,
       "p_s_pctile": 1.0,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -20387,12 +21236,12 @@
       "p_s": 61.09,
       "mc_tvl": null,
       "fdv_mc": 4.64,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.56,
       "p_s_pctile": 0.5,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -20407,7 +21256,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 1,
+      "gates_passed": 2,
       "pending": [
         "D3_adoption"
       ]
@@ -20479,12 +21328,12 @@
       "p_s": 11.21,
       "mc_tvl": 2.54,
       "fdv_mc": 5.49,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.3,
       "p_s_pctile": 0.27,
       "mc_tvl_pctile": 0.52,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -20499,7 +21348,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -20893,12 +21742,12 @@
       "p_s": 36.79,
       "mc_tvl": 2.18,
       "fdv_mc": 1.28,
-      "real_yield": null,
+      "real_yield": 0.79,
       "p_f_pctile": 0.55,
       "p_s_pctile": 0.65,
       "mc_tvl_pctile": 0.62,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -21170,12 +22019,12 @@
       "p_s": 26.66,
       "mc_tvl": 0.21,
       "fdv_mc": 1.64,
-      "real_yield": null,
+      "real_yield": 1.45,
       "p_f_pctile": 0.66,
       "p_s_pctile": 0.52,
       "mc_tvl_pctile": 0.33,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -21190,7 +22039,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -21446,12 +22295,12 @@
       "p_s": 8729.37,
       "mc_tvl": null,
       "fdv_mc": 3.98,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.62,
       "p_s_pctile": 0.75,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -21466,7 +22315,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 1,
+      "gates_passed": 2,
       "pending": [
         "D3_adoption"
       ]
@@ -22412,12 +23261,12 @@
       "p_s": 4.36,
       "mc_tvl": 0.02,
       "fdv_mc": 1.31,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.07,
       "p_s_pctile": 0.13,
       "mc_tvl_pctile": 0.1,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -22432,7 +23281,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -22873,12 +23722,12 @@
       "p_s": 19.07,
       "mc_tvl": 0.3,
       "fdv_mc": 1.16,
-      "real_yield": null,
+      "real_yield": 14.66,
       "p_f_pctile": 0.45,
       "p_s_pctile": 0.43,
       "mc_tvl_pctile": 0.38,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -22893,7 +23742,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -22965,12 +23814,12 @@
       "p_s": 273.37,
       "mc_tvl": 2.04,
       "fdv_mc": 1.6,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.83,
       "p_s_pctile": 0.78,
       "mc_tvl_pctile": 0.56,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -22985,7 +23834,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -23012,12 +23861,12 @@
       "p_s": null,
       "mc_tvl": 0.64,
       "fdv_mc": 2.42,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": null,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.46,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -24715,12 +25564,12 @@
       "p_s": 1956.6,
       "mc_tvl": null,
       "fdv_mc": 1.03,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.23,
       "p_s_pctile": 0.38,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -24735,7 +25584,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -24992,12 +25841,12 @@
       "p_s": 265.41,
       "mc_tvl": null,
       "fdv_mc": 1.92,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.67,
       "p_s_pctile": 0.65,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -25012,7 +25861,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -25314,12 +26163,12 @@
       "p_s": 26.7,
       "mc_tvl": 0.0,
       "fdv_mc": 1.0,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.62,
       "p_s_pctile": 0.57,
       "mc_tvl_pctile": 0.03,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -25334,7 +26183,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption"
       ]
@@ -25360,12 +26209,12 @@
       "p_s": 37.96,
       "mc_tvl": 0.04,
       "fdv_mc": 2.09,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.16,
       "p_s_pctile": 0.46,
       "mc_tvl_pctile": 0.1,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -25380,7 +26229,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -26374,12 +27223,12 @@
       "p_s": 412.86,
       "mc_tvl": 1.4,
       "fdv_mc": 1.07,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.86,
       "p_s_pctile": 0.83,
       "mc_tvl_pctile": 0.54,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -26394,7 +27243,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -26513,12 +27362,12 @@
       "p_s": 4090.93,
       "mc_tvl": 5.29,
       "fdv_mc": 1.14,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.84,
       "p_s_pctile": 0.88,
       "mc_tvl_pctile": 0.59,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -26533,7 +27382,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -27204,12 +28053,12 @@
       "p_s": 13669.29,
       "mc_tvl": null,
       "fdv_mc": 1.02,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.54,
       "p_s_pctile": 0.88,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -27342,12 +28191,12 @@
       "p_s": 757.94,
       "mc_tvl": 6.38,
       "fdv_mc": 2.44,
-      "real_yield": null,
+      "real_yield": 0.02,
       "p_f_pctile": 0.93,
       "p_s_pctile": 0.91,
       "mc_tvl_pctile": 0.69,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -27481,12 +28330,12 @@
       "p_s": 834.44,
       "mc_tvl": 2.7,
       "fdv_mc": 1.48,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.08,
       "p_s_pctile": 0.25,
       "mc_tvl_pctile": 0.53,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -27501,7 +28350,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -27896,12 +28745,12 @@
       "p_s": 30.62,
       "mc_tvl": 0.12,
       "fdv_mc": 6.4,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.52,
       "p_s_pctile": 0.61,
       "mc_tvl_pctile": 0.21,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -27916,7 +28765,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -28816,12 +29665,12 @@
       "p_s": 5.21,
       "mc_tvl": 0.18,
       "fdv_mc": 1.68,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.28,
       "p_s_pctile": 0.22,
       "mc_tvl_pctile": 0.31,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -28836,7 +29685,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -28955,12 +29804,12 @@
       "p_s": 42622.25,
       "mc_tvl": 986.97,
       "fdv_mc": 1.37,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.97,
       "p_s_pctile": 1.0,
       "mc_tvl_pctile": 0.95,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -28975,7 +29824,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 3,
+      "gates_passed": 4,
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -29324,12 +30173,12 @@
       "p_s": 2277.59,
       "mc_tvl": null,
       "fdv_mc": 2.08,
-      "real_yield": null,
+      "real_yield": 9999.0,
       "p_f_pctile": 0.79,
       "p_s_pctile": 0.83,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": true,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
@@ -29344,7 +30193,7 @@
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
-      "gates_passed": 2,
+      "gates_passed": 3,
       "pending": [
         "D3_adoption"
       ]
@@ -29784,12 +30633,12 @@
       "p_s": null,
       "mc_tvl": 0.03,
       "fdv_mc": 1.66,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.69,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.06,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -30382,12 +31231,12 @@
       "p_s": 13.65,
       "mc_tvl": 0.14,
       "fdv_mc": 4.51,
-      "real_yield": null,
+      "real_yield": 0.1,
       "p_f_pctile": 0.21,
       "p_s_pctile": 0.39,
       "mc_tvl_pctile": 0.26,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": false,
         "G3_liquidity": true,
         "G4_not_wash": true
@@ -31119,12 +31968,12 @@
       "p_s": 680.75,
       "mc_tvl": null,
       "fdv_mc": 2.1,
-      "real_yield": null,
+      "real_yield": 0.0,
       "p_f_pctile": 0.71,
       "p_s_pctile": 0.75,
       "mc_tvl_pctile": null,
       "gates": {
-        "G1_real_yield": null,
+        "G1_real_yield": false,
         "G2_clean_float": true,
         "G3_liquidity": true,
         "G4_not_wash": null
