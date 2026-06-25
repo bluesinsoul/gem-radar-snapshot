@@ -1,8 +1,8 @@
 {
   "as_of": "2026-06-24",
-  "generated_at": "2026-06-24T19:07:21Z",
-  "data_age_days": 0,
-  "note": "Authoritative local data: GemRadar gems.db (CoinGecko fundamentals + DeFiLlama protocol fees/TVL/revenue) over the longshot.db price/supply/coil backbone. FUNDAMENTALS-FIRST, low-cap gems ($5M-$250M). Raw signals, NO composite score. null = NO DATA (do not guess). Layers: GATES qualify (G1 real-yield, G2 clean-float, G3 liquidity, G4 not-wash), DIVERGENCES are early-tells (trend halves light up after >=2 daily collects), TRAPS flag distribution. Percentiles are sector-relative. coil_lookalikes (longshot winner-DNA) = the TIMING overlay, not the thesis.",
+  "generated_at": "2026-06-25T00:10:43Z",
+  "data_age_days": 1,
+  "note": "\u26a0\ufe0f STALE \u2014 freshest data is 1 day(s) old (as_of 2026-06-24, exported 2026-06-25); SAY SO at the top of the digest. Authoritative local data: GemRadar gems.db (CoinGecko fundamentals + DeFiLlama protocol fees/TVL/revenue) over the longshot.db price/supply/coil backbone. FUNDAMENTALS-FIRST, low-cap gems ($5M-$250M). Raw signals, NO composite score. null = NO DATA (do not guess). Layers: GATES qualify (G1 real-yield, G2 clean-float, G3 liquidity, G4 not-wash), DIVERGENCES are early-tells (trend halves light up after >=2 daily collects), TRAPS flag distribution. Percentiles are sector-relative. coil_lookalikes (longshot winner-DNA) = the TIMING overlay, not the thesis.",
   "universe": {
     "band_usd": [
       5000000,
@@ -35,6 +35,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 1.7206768872621478,
       "p_s": 8.60339671794113,
       "price_change_30d_pct": -29.669617785451248
@@ -49,6 +50,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 0.6246816720407334,
       "p_s": 1.561706051969436,
       "price_change_30d_pct": -23.475156718607238
@@ -63,23 +65,12 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "p_f": 1.2000028102018119,
       "p_s": 1.7029103149925948,
       "price_change_30d_pct": -35.47924919182026
-    },
-    {
-      "symbol": "CARDS",
-      "cg_id": "collector-crypt",
-      "sector": "Trading Card RWA Platform",
-      "mcap_usd": 76180130.0,
-      "layers": [
-        "cheap",
-        "trending"
-      ],
-      "n_layers": 2,
-      "p_f": 0.413161133801053,
-      "p_s": 0.413161133801053,
-      "price_change_30d_pct": 89.74416314066272
     },
     {
       "symbol": "COW",
@@ -91,6 +82,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 3.6219424551472317,
       "p_s": 5.161744642601605,
       "price_change_30d_pct": -7.364023798492861
@@ -105,6 +97,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 9.73497641399663,
       "p_s": 9.73497641399663,
       "price_change_30d_pct": 9.154343041883344
@@ -119,8 +112,9 @@
         "gated"
       ],
       "n_layers": 2,
-      "p_f": 0.8057149679391397,
-      "p_s": 4.031957904033517,
+      "risk_tags": [],
+      "p_f": 0.8076227099546524,
+      "p_s": 4.040814429077238,
       "price_change_30d_pct": -20.985162393811656
     },
     {
@@ -133,6 +127,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 9.191938913058616,
       "p_s": 9.191938913058616,
       "price_change_30d_pct": 43.79070545225723
@@ -147,6 +142,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 0.4988765762926926,
       "p_s": 7.951745098499246,
       "price_change_30d_pct": -26.19312857653818
@@ -161,37 +157,12 @@
         "gated"
       ],
       "n_layers": 2,
-      "p_f": 0.194619227917899,
-      "p_s": 0.194619227917899,
+      "risk_tags": [
+        "low-float"
+      ],
+      "p_f": 0.20531759101510894,
+      "p_s": 0.20531759101510894,
       "price_change_30d_pct": -25.872298388483777
-    },
-    {
-      "symbol": "MSUSD",
-      "cg_id": "metronome-synth-usd",
-      "sector": "Stablecoins",
-      "mcap_usd": 23364433.0,
-      "layers": [
-        "coil",
-        "narrative"
-      ],
-      "n_layers": 2,
-      "p_f": null,
-      "p_s": null,
-      "price_change_30d_pct": 0.08597047671153048
-    },
-    {
-      "symbol": "MON",
-      "cg_id": "monad",
-      "sector": "Layer 1 (L1)",
-      "mcap_usd": 235452949.0,
-      "layers": [
-        "cheap",
-        "trending"
-      ],
-      "n_layers": 2,
-      "p_f": 136.47889008993275,
-      "p_s": 181.7253613236881,
-      "price_change_30d_pct": -24.187501141655275
     },
     {
       "symbol": "QUICK",
@@ -203,6 +174,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 0.7264088825583228,
       "p_s": 4.358489216352516,
       "price_change_30d_pct": -15.046818186356568
@@ -217,7 +189,8 @@
         "gated"
       ],
       "n_layers": 2,
-      "p_f": 1.0053674900151959,
+      "risk_tags": [],
+      "p_f": 1.008918038973493,
       "p_s": null,
       "price_change_30d_pct": -24.426823801215324
     },
@@ -231,6 +204,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 1956.6026298733398,
       "p_s": 1956.6026298733398,
       "price_change_30d_pct": -48.97193138541594
@@ -245,23 +219,10 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 2.0296458887778606,
       "p_s": 37.96165111781793,
       "price_change_30d_pct": -21.008681164619
-    },
-    {
-      "symbol": "SYN",
-      "cg_id": "synapse-2",
-      "sector": "Bridge Governance Tokens",
-      "mcap_usd": 60324850.0,
-      "layers": [
-        "gated",
-        "narrative"
-      ],
-      "n_layers": 2,
-      "p_f": 4034.342432314946,
-      "p_s": 4090.9297436592974,
-      "price_change_30d_pct": 516.6829319403909
     },
     {
       "symbol": "RUNE",
@@ -273,6 +234,7 @@
         "gated"
       ],
       "n_layers": 2,
+      "risk_tags": [],
       "p_f": 120.43979751331143,
       "p_s": 834.4387118963858,
       "price_change_30d_pct": -8.872236779911582
@@ -287,8 +249,9 @@
         "gated"
       ],
       "n_layers": 2,
-      "p_f": 4.775751379946616,
-      "p_s": 5.205383756644844,
+      "risk_tags": [],
+      "p_f": 4.7368264267968145,
+      "p_s": 5.157618282305642,
       "price_change_30d_pct": -30.623888044754988
     },
     {
@@ -301,6 +264,9 @@
         "shipping"
       ],
       "n_layers": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "p_f": 338.53036630016584,
       "p_s": null,
       "price_change_30d_pct": -17.339403159472486
@@ -319,13 +285,13 @@
       "price_change_7d_pct": 1.21,
       "price_change_30d_pct": -25.87,
       "protocol_tvl_usd": 846365.3,
-      "fees_30d_usd": 4780640.0,
-      "revenue_30d_usd": 4780640.0,
+      "fees_30d_usd": 4531538.0,
+      "revenue_30d_usd": 4531538.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.19,
-      "p_s": 0.19,
+      "p_f": 0.21,
+      "p_s": 0.21,
       "mc_tvl": 13.37,
       "fdv_mc": 7.61,
       "real_yield": 9999.0,
@@ -339,7 +305,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -349,8 +315,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -366,13 +334,13 @@
       "price_change_7d_pct": 22.91,
       "price_change_30d_pct": 89.74,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 15154815.0,
-      "revenue_30d_usd": 15154815.0,
+      "fees_30d_usd": 14984551.0,
+      "revenue_30d_usd": 14984551.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.41,
-      "p_s": 0.41,
+      "p_f": 0.42,
+      "p_s": 0.42,
       "mc_tvl": null,
       "fdv_mc": 7.77,
       "real_yield": 9999.0,
@@ -386,7 +354,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -396,8 +364,10 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -433,7 +403,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -443,8 +413,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -480,7 +450,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -490,8 +460,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -527,7 +499,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -537,8 +509,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -574,7 +546,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -584,8 +556,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -621,7 +593,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -631,8 +603,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -648,16 +620,16 @@
       "price_change_7d_pct": 0.24,
       "price_change_30d_pct": -20.99,
       "protocol_tvl_usd": 197916951.17,
-      "fees_30d_usd": 1219218.0,
-      "revenue_30d_usd": 243639.0,
+      "fees_30d_usd": 1216338.0,
+      "revenue_30d_usd": 243105.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
       "p_f": 0.81,
-      "p_s": 4.03,
+      "p_s": 4.04,
       "mc_tvl": 0.06,
       "fdv_mc": 2.05,
-      "real_yield": 6.92,
+      "real_yield": 6.91,
       "p_f_pctile": 0.1,
       "p_s_pctile": 0.09,
       "mc_tvl_pctile": 0.18,
@@ -668,7 +640,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -678,8 +650,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -715,7 +687,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -725,55 +697,10 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "ATH",
-      "cg_id": "aethir",
-      "sector": "Artificial Intelligence (AI)",
-      "mcap_usd": 87990566.0,
-      "fdv_usd": 183692040.0,
-      "price_usd": 0.0,
-      "turnover": 0.1,
-      "float_ratio": 0.48,
-      "price_change_7d_pct": -11.98,
-      "price_change_30d_pct": -29.67,
-      "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 4203056.0,
-      "revenue_30d_usd": 840610.0,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 1.72,
-      "p_s": 8.6,
-      "mc_tvl": null,
-      "fdv_mc": 2.09,
-      "real_yield": 9999.0,
-      "p_f_pctile": 0.13,
-      "p_s_pctile": 0.21,
-      "mc_tvl_pctile": null,
-      "gates": {
-        "G1_real_yield": true,
-        "G2_clean_float": true,
-        "G3_liquidity": true,
-        "G4_not_wash": null
-      },
-      "divergences": {
-        "D1_cheap_and_growing": null,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 3,
-      "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -789,7 +716,7 @@
       "price_change_7d_pct": -8.58,
       "price_change_30d_pct": -24.43,
       "protocol_tvl_usd": 881953830.25,
-      "fees_30d_usd": 2372722.0,
+      "fees_30d_usd": 2364372.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
@@ -819,8 +746,56 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "ATH",
+      "cg_id": "aethir",
+      "sector": "Artificial Intelligence (AI)",
+      "mcap_usd": 87990566.0,
+      "fdv_usd": 183692040.0,
+      "price_usd": 0.0,
+      "turnover": 0.1,
+      "float_ratio": 0.48,
+      "price_change_7d_pct": -11.98,
+      "price_change_30d_pct": -29.67,
+      "protocol_tvl_usd": 0.0,
+      "fees_30d_usd": 4203056.0,
+      "revenue_30d_usd": 840610.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 1.72,
+      "p_s": 8.6,
+      "mc_tvl": null,
+      "fdv_mc": 2.09,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.14,
+      "p_s_pctile": 0.21,
+      "mc_tvl_pctile": null,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": null
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 3,
+      "risk_tags": [],
+      "pending": [
         "D3_adoption"
       ]
     },
@@ -856,7 +831,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -866,8 +841,105 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "USUAL",
+      "cg_id": "usual",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 17062003.0,
+      "fdv_usd": 28608720.0,
+      "price_usd": 0.01,
+      "turnover": 0.14,
+      "float_ratio": 0.6,
+      "price_change_7d_pct": -6.63,
+      "price_change_30d_pct": -30.62,
+      "protocol_tvl_usd": 95112690.3,
+      "fees_30d_usd": 296054.0,
+      "revenue_30d_usd": 271900.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 4.74,
+      "p_s": 5.16,
+      "mc_tvl": 0.18,
+      "fdv_mc": 1.68,
+      "real_yield": 9999.0,
+      "p_f_pctile": 0.28,
+      "p_s_pctile": 0.17,
+      "mc_tvl_pctile": 0.31,
+      "gates": {
+        "G1_real_yield": true,
+        "G2_clean_float": true,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": false,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 4,
+      "risk_tags": [],
+      "pending": [
+        "D3_adoption"
+      ]
+    },
+    {
+      "symbol": "YB",
+      "cg_id": "yield-basis",
+      "sector": "Decentralized Finance (DeFi)",
+      "mcap_usd": 16480189.0,
+      "fdv_usd": 74365000.0,
+      "price_usd": 0.07,
+      "turnover": 0.5,
+      "float_ratio": 0.22,
+      "price_change_7d_pct": -14.28,
+      "price_change_30d_pct": -43.0,
+      "protocol_tvl_usd": 116840401.99,
+      "fees_30d_usd": 844565.0,
+      "revenue_30d_usd": 118160.0,
+      "gh_commits_4w": 0.0,
+      "next_unlock_days": null,
+      "next_unlock_pct_float": null,
+      "p_f": 1.6,
+      "p_s": 11.46,
+      "mc_tvl": 0.14,
+      "fdv_mc": 4.51,
+      "real_yield": 0.12,
+      "p_f_pctile": 0.21,
+      "p_s_pctile": 0.39,
+      "mc_tvl_pctile": 0.26,
+      "gates": {
+        "G1_real_yield": false,
+        "G2_clean_float": false,
+        "G3_liquidity": true,
+        "G4_not_wash": true
+      },
+      "divergences": {
+        "D1_cheap_and_growing": true,
+        "D3_adoption_ahead": null,
+        "D5_positioning": null
+      },
+      "traps": {
+        "T1_expensive_fading": false,
+        "T2_pump_into_unlock": null,
+        "T3_wash": null
+      },
+      "gates_passed": 2,
+      "risk_tags": [
+        "low-float",
+        "emission-funded"
+      ],
+      "pending": [
         "D3_adoption"
       ]
     },
@@ -894,7 +966,7 @@
       "fdv_mc": 1.73,
       "real_yield": 9999.0,
       "p_f_pctile": 0.24,
-      "p_s_pctile": 0.17,
+      "p_s_pctile": 0.22,
       "mc_tvl_pctile": null,
       "gates": {
         "G1_real_yield": true,
@@ -903,7 +975,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -913,102 +985,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "YB",
-      "cg_id": "yield-basis",
-      "sector": "Decentralized Finance (DeFi)",
-      "mcap_usd": 16480189.0,
-      "fdv_usd": 74365000.0,
-      "price_usd": 0.07,
-      "turnover": 0.5,
-      "float_ratio": 0.22,
-      "price_change_7d_pct": -14.28,
-      "price_change_30d_pct": -43.0,
-      "protocol_tvl_usd": 116840401.99,
-      "fees_30d_usd": 787049.0,
-      "revenue_30d_usd": 99239.0,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 1.72,
-      "p_s": 13.65,
-      "mc_tvl": 0.14,
-      "fdv_mc": 4.51,
-      "real_yield": 0.1,
-      "p_f_pctile": 0.21,
-      "p_s_pctile": 0.39,
-      "mc_tvl_pctile": 0.26,
-      "gates": {
-        "G1_real_yield": false,
-        "G2_clean_float": false,
-        "G3_liquidity": true,
-        "G4_not_wash": true
-      },
-      "divergences": {
-        "D1_cheap_and_growing": null,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 2,
-      "pending": [
-        "D1_growth",
-        "D3_adoption"
-      ]
-    },
-    {
-      "symbol": "USUAL",
-      "cg_id": "usual",
-      "sector": "Decentralized Finance (DeFi)",
-      "mcap_usd": 17062003.0,
-      "fdv_usd": 28608720.0,
-      "price_usd": 0.01,
-      "turnover": 0.14,
-      "float_ratio": 0.6,
-      "price_change_7d_pct": -6.63,
-      "price_change_30d_pct": -30.62,
-      "protocol_tvl_usd": 95112690.3,
-      "fees_30d_usd": 293641.0,
-      "revenue_30d_usd": 269405.0,
-      "gh_commits_4w": 0.0,
-      "next_unlock_days": null,
-      "next_unlock_pct_float": null,
-      "p_f": 4.78,
-      "p_s": 5.21,
-      "mc_tvl": 0.18,
-      "fdv_mc": 1.68,
-      "real_yield": 9999.0,
-      "p_f_pctile": 0.28,
-      "p_s_pctile": 0.22,
-      "mc_tvl_pctile": 0.31,
-      "gates": {
-        "G1_real_yield": true,
-        "G2_clean_float": true,
-        "G3_liquidity": true,
-        "G4_not_wash": true
-      },
-      "divergences": {
-        "D1_cheap_and_growing": null,
-        "D3_adoption_ahead": null,
-        "D5_positioning": null
-      },
-      "traps": {
-        "T1_expensive_fading": false,
-        "T2_pump_into_unlock": null,
-        "T3_wash": null
-      },
-      "gates_passed": 4,
-      "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1044,7 +1022,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1054,8 +1032,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1091,7 +1069,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1101,8 +1079,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1138,7 +1116,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1148,8 +1126,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1195,6 +1173,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -1211,18 +1192,18 @@
       "price_change_7d_pct": -4.03,
       "price_change_30d_pct": -56.99,
       "protocol_tvl_usd": 5263533.45,
-      "fees_30d_usd": 98092.0,
-      "revenue_30d_usd": 98092.0,
+      "fees_30d_usd": 97407.0,
+      "revenue_30d_usd": 97407.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 11.21,
-      "p_s": 11.21,
+      "p_f": 11.29,
+      "p_s": 11.29,
       "mc_tvl": 2.54,
       "fdv_mc": 5.49,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.3,
-      "p_s_pctile": 0.27,
+      "p_f_pctile": 0.31,
+      "p_s_pctile": 0.29,
       "mc_tvl_pctile": 0.52,
       "gates": {
         "G1_real_yield": true,
@@ -1241,6 +1222,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -1269,7 +1253,7 @@
       "mc_tvl": null,
       "fdv_mc": 2.09,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.13,
+      "p_f_pctile": 0.14,
       "p_s_pctile": 0.21,
       "mc_tvl_pctile": null,
       "gates": {
@@ -1279,7 +1263,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1289,8 +1273,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1336,6 +1320,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -1352,13 +1337,13 @@
       "price_change_7d_pct": -3.33,
       "price_change_30d_pct": 11.29,
       "protocol_tvl_usd": 539454.36,
-      "fees_30d_usd": 5860.0,
-      "revenue_30d_usd": 886.0,
+      "fees_30d_usd": 5810.0,
+      "revenue_30d_usd": 888.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 673.75,
-      "p_s": 4456.16,
+      "p_f": 679.55,
+      "p_s": 4446.12,
       "mc_tvl": 89.05,
       "fdv_mc": 4.05,
       "real_yield": 9999.0,
@@ -1382,6 +1367,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -1429,6 +1417,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -1465,7 +1454,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1475,8 +1464,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1522,6 +1511,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -1558,7 +1550,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1568,8 +1560,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1585,13 +1579,13 @@
       "price_change_7d_pct": 22.91,
       "price_change_30d_pct": 89.74,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 15154815.0,
-      "revenue_30d_usd": 15154815.0,
+      "fees_30d_usd": 14984551.0,
+      "revenue_30d_usd": 14984551.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.41,
-      "p_s": 0.41,
+      "p_f": 0.42,
+      "p_s": 0.42,
       "mc_tvl": null,
       "fdv_mc": 7.77,
       "real_yield": 9999.0,
@@ -1605,7 +1599,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1615,8 +1609,10 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1643,7 +1639,7 @@
       "fdv_mc": 1.73,
       "real_yield": 9999.0,
       "p_f_pctile": 0.24,
-      "p_s_pctile": 0.17,
+      "p_s_pctile": 0.22,
       "mc_tvl_pctile": null,
       "gates": {
         "G1_real_yield": true,
@@ -1652,7 +1648,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1662,8 +1658,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1699,7 +1695,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1709,8 +1705,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1726,13 +1722,13 @@
       "price_change_7d_pct": -17.95,
       "price_change_30d_pct": -30.98,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 139276.0,
-      "revenue_30d_usd": 139276.0,
+      "fees_30d_usd": 140009.0,
+      "revenue_30d_usd": 140009.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 104.64,
-      "p_s": 104.64,
+      "p_f": 104.1,
+      "p_s": 104.1,
       "mc_tvl": null,
       "fdv_mc": 2.48,
       "real_yield": 9999.0,
@@ -1756,6 +1752,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -1772,13 +1769,13 @@
       "price_change_7d_pct": 15.08,
       "price_change_30d_pct": -10.87,
       "protocol_tvl_usd": 18177479.68,
-      "fees_30d_usd": 743.0,
-      "revenue_30d_usd": 743.0,
+      "fees_30d_usd": 720.0,
+      "revenue_30d_usd": 720.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 2541.83,
-      "p_s": 2541.83,
+      "p_f": 2623.02,
+      "p_s": 2623.02,
       "mc_tvl": 1.26,
       "fdv_mc": 1.65,
       "real_yield": 9999.0,
@@ -1802,6 +1799,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -1848,6 +1846,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -1884,7 +1883,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1894,8 +1893,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -1911,13 +1910,13 @@
       "price_change_7d_pct": 1.21,
       "price_change_30d_pct": -25.87,
       "protocol_tvl_usd": 846365.3,
-      "fees_30d_usd": 4780640.0,
-      "revenue_30d_usd": 4780640.0,
+      "fees_30d_usd": 4531538.0,
+      "revenue_30d_usd": 4531538.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.19,
-      "p_s": 0.19,
+      "p_f": 0.21,
+      "p_s": 0.21,
       "mc_tvl": 13.37,
       "fdv_mc": 7.61,
       "real_yield": 9999.0,
@@ -1931,7 +1930,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -1941,8 +1940,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     }
@@ -1990,6 +1991,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2036,6 +2038,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2082,6 +2085,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2128,6 +2132,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2174,6 +2179,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2220,6 +2226,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2266,6 +2273,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -2302,7 +2312,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -2312,8 +2322,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -2329,12 +2339,12 @@
       "price_change_7d_pct": -5.74,
       "price_change_30d_pct": -29.03,
       "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 31596.0,
+      "fees_30d_usd": 31002.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 26.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 527.0,
+      "p_f": 537.1,
       "p_s": null,
       "mc_tvl": null,
       "fdv_mc": 1.0,
@@ -2359,6 +2369,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2405,6 +2416,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2451,6 +2463,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2497,6 +2510,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2543,6 +2557,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2589,6 +2604,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2635,6 +2651,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2681,6 +2698,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2727,6 +2745,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2773,6 +2792,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -2819,6 +2841,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2865,6 +2888,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -2875,7 +2899,7 @@
     "events": [
       {
         "date": "2026-06-26",
-        "days_out": 2,
+        "days_out": 1,
         "symbol": "SAHARA",
         "subject": "Sahara AI 1.03B token unlock",
         "type": "Unlock",
@@ -2885,7 +2909,7 @@
       },
       {
         "date": "2026-07-06",
-        "days_out": 12,
+        "days_out": 11,
         "symbol": "HYPE",
         "subject": "Hyperliquid monthly unlock",
         "type": "Unlock",
@@ -2895,7 +2919,7 @@
       },
       {
         "date": "2026-07-28",
-        "days_out": 34,
+        "days_out": 33,
         "symbol": "XPL",
         "subject": "Plasma XPL US-purchaser unlock cliff",
         "type": "Unlock",
@@ -2910,281 +2934,273 @@
     "method": "CoinGecko category momentum (24h mcap change + constituent 7d breadth/median); thematic narratives only (chain-ecosystem/stablecoin categories excluded)",
     "sectors": [
       {
-        "id": "decentralized-social-media-desoc",
-        "name": "Decentralized Social Media (DeSOC)",
-        "market_cap_usd": 34932499,
-        "mcap_change_24h_pct": -0.22412873709177955,
-        "volume_24h_usd": 5737.857624171211,
-        "breadth_7d_pct": 80.0,
-        "median_7d_pct": 2.3,
+        "id": "fractionalized-nft",
+        "name": "Fractionalized NFT",
+        "market_cap_usd": 22108662,
+        "mcap_change_24h_pct": 76.24641374050067,
+        "volume_24h_usd": 257682.52018743407,
+        "breadth_7d_pct": 30.0,
+        "median_7d_pct": -2.6,
         "leaders": [
           {
-            "name": "Bitsocial",
-            "symbol": "BSO",
-            "price_change_7d_pct": 1120991.5991663416,
-            "price_change_30d_pct": 1120991.5991663416,
-            "market_cap_usd": 1928730.0
+            "name": "Feisty Doge NFT",
+            "symbol": "NFD",
+            "price_change_7d_pct": 806.4324908904331,
+            "price_change_30d_pct": 694.6649260041514,
+            "market_cap_usd": 10835439.0
           },
           {
-            "name": "Decentralized Social",
-            "symbol": "DESO",
-            "price_change_7d_pct": 12.28679680322026,
-            "price_change_30d_pct": -17.466820320474568,
-            "market_cap_usd": 33056314.0
+            "name": "Hacash Diamond",
+            "symbol": "HACD",
+            "price_change_7d_pct": 7.096632901693263,
+            "price_change_30d_pct": 26.650169253919202,
+            "market_cap_usd": 859763.0
           },
           {
-            "name": "AnChat",
-            "symbol": "ANCHAT",
-            "price_change_7d_pct": 2.2829427316559796,
-            "price_change_30d_pct": -40.32228564970361,
-            "market_cap_usd": 14448.37
+            "name": "Wen",
+            "symbol": "WEN",
+            "price_change_7d_pct": 3.518308952943615,
+            "price_change_30d_pct": -16.36565270572681,
+            "market_cap_usd": 3576652.0
           }
         ],
-        "signals": [
-          "broad_heating"
-        ],
-        "rank_key": 18.08
+        "signals": [],
+        "rank_key": 79.65
       },
       {
-        "id": "midas-liquid-yield-tokens",
-        "name": "Midas Liquid Yield Tokens",
-        "market_cap_usd": 292186226,
-        "mcap_change_24h_pct": 6.126140232200472,
-        "volume_24h_usd": 159686.96347362158,
-        "breadth_7d_pct": 56.2,
-        "median_7d_pct": 0.1,
+        "id": "echo-launchpad",
+        "name": "Echo Launchpad",
+        "market_cap_usd": 5297927473,
+        "mcap_change_24h_pct": 10.85086769425705,
+        "volume_24h_usd": 222101312.22352576,
+        "breadth_7d_pct": 50.0,
+        "median_7d_pct": 23.7,
         "leaders": [
           {
-            "name": "Midas mF-ONE",
-            "symbol": "MF-ONE",
-            "price_change_7d_pct": 0.24757039893329924,
-            "price_change_30d_pct": 1.0392203688086332,
-            "market_cap_usd": 69950522.0
+            "name": "LAB",
+            "symbol": "LAB",
+            "price_change_7d_pct": 23.69644533932557,
+            "price_change_30d_pct": 272.01412371603635,
+            "market_cap_usd": 5066947752.0
           },
           {
-            "name": "Midas mHYPER",
-            "symbol": "MHYPER",
-            "price_change_7d_pct": 0.19840018110302454,
-            "price_change_30d_pct": 0.8355711930072429,
-            "market_cap_usd": 33714527.0
-          },
-          {
-            "name": "Midas mEDGE",
-            "symbol": "MEDGE",
-            "price_change_7d_pct": 0.17553593070979026,
-            "price_change_30d_pct": 0.6829483623871818,
-            "market_cap_usd": 2256585.0
+            "name": "Plasma",
+            "symbol": "XPL",
+            "price_change_7d_pct": -18.69544221315503,
+            "price_change_30d_pct": 7.585751400239838,
+            "market_cap_usd": 230760307.0
           }
         ],
         "signals": [
-          "broad_heating",
           "rotating_in"
         ],
-        "rank_key": 17.47
+        "rank_key": 44.55
+      },
+      {
+        "id": "yield-tokenization-product",
+        "name": "Yield Tokenization Product",
+        "market_cap_usd": 27901871,
+        "mcap_change_24h_pct": 12.26296106506053,
+        "volume_24h_usd": 14463.853454567336,
+        "breadth_7d_pct": 33.3,
+        "median_7d_pct": 0.0,
+        "leaders": [
+          {
+            "name": "Nest Alpha Vault",
+            "symbol": "NALPHA",
+            "price_change_7d_pct": 0.19329985239752037,
+            "price_change_30d_pct": 0.8415806520157437,
+            "market_cap_usd": 10654495.0
+          },
+          {
+            "name": "Portfolio of Risk-adjusted Investment Strategy Mix",
+            "symbol": "PRISM",
+            "price_change_7d_pct": 0.0,
+            "price_change_30d_pct": 0.0,
+            "market_cap_usd": 0.0
+          },
+          {
+            "name": "Main Street Yield",
+            "symbol": "MSY",
+            "price_change_7d_pct": -73.75466575109219,
+            "price_change_30d_pct": -73.70986880605113,
+            "market_cap_usd": 17232317.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 18.92
       },
       {
         "id": "ohm-fork",
         "name": "Ohm Fork",
-        "market_cap_usd": 36131685,
-        "mcap_change_24h_pct": 1.5738916324281316,
-        "volume_24h_usd": 7464.689621043617,
+        "market_cap_usd": 38970281,
+        "mcap_change_24h_pct": 8.452317857140077,
+        "volume_24h_usd": 8236.081237489318,
         "breadth_7d_pct": 50.0,
-        "median_7d_pct": 0.0,
+        "median_7d_pct": 0.4,
         "leaders": [
-          {
-            "name": "Templar DAO",
-            "symbol": "TEM",
-            "price_change_7d_pct": 0.29518090933538255,
-            "price_change_30d_pct": -0.7658089523857133,
-            "market_cap_usd": 0.0
-          },
           {
             "name": "Snowbank",
             "symbol": "SB",
-            "price_change_7d_pct": 0.022314849902428675,
-            "price_change_30d_pct": 1.383784063174183,
-            "market_cap_usd": 36194234.0
+            "price_change_7d_pct": 5.83786575357388,
+            "price_change_30d_pct": 7.571308085887319,
+            "market_cap_usd": 38297775.0
+          },
+          {
+            "name": "Templar DAO",
+            "symbol": "TEM",
+            "price_change_7d_pct": 0.358284523922775,
+            "price_change_30d_pct": -0.2179912557567571,
+            "market_cap_usd": 0.0
           },
           {
             "name": "Wonderland TIME",
             "symbol": "TIME",
             "price_change_7d_pct": 0.0,
-            "price_change_30d_pct": -29.99463058240906,
+            "price_change_30d_pct": -29.43938543936131,
             "market_cap_usd": 10572.67
           }
         ],
-        "signals": [],
-        "rank_key": 11.57
-      },
-      {
-        "id": "synthetic-dollar",
-        "name": "Synthetic Dollar",
-        "market_cap_usd": 6293884112,
-        "mcap_change_24h_pct": 0.2762757011552746,
-        "volume_24h_usd": 125892838.73634586,
-        "breadth_7d_pct": 28.6,
-        "median_7d_pct": 0.0,
-        "leaders": [
-          {
-            "name": "Pareto Staked USP",
-            "symbol": "SUSP",
-            "price_change_7d_pct": 0.13043684109834391,
-            "price_change_30d_pct": 0.5592316861264741,
-            "market_cap_usd": 730957.0
-          },
-          {
-            "name": "eSui Dollar",
-            "symbol": "SUIUSDE",
-            "price_change_7d_pct": 0.05339491471079655,
-            "price_change_30d_pct": 0.007743494471115818,
-            "market_cap_usd": 13459298.0
-          },
-          {
-            "name": "Metronome Synth USD",
-            "symbol": "MSUSD",
-            "price_change_7d_pct": 0.05251189929893796,
-            "price_change_30d_pct": -0.03155567274141595,
-            "market_cap_usd": 30063216.0
-          }
+        "signals": [
+          "rotating_in"
         ],
-        "signals": [],
-        "rank_key": 6.0
-      },
-      {
-        "id": "bridge-governance-tokens",
-        "name": "Bridge Governance Tokens",
-        "market_cap_usd": 430437566,
-        "mcap_change_24h_pct": -0.24933231588467045,
-        "volume_24h_usd": 156157615.4273887,
-        "breadth_7d_pct": 28.6,
-        "median_7d_pct": -4.3,
-        "leaders": [
-          {
-            "name": "Synapse",
-            "symbol": "SYN",
-            "price_change_7d_pct": 411.25672471509745,
-            "price_change_30d_pct": 623.9725947068096,
-            "market_cap_usd": 70068419.0
-          },
-          {
-            "name": "Router Protocol",
-            "symbol": "ROUTE",
-            "price_change_7d_pct": 95.7704102702456,
-            "price_change_30d_pct": -63.41108449949997,
-            "market_cap_usd": 261061.0
-          },
-          {
-            "name": "Confidential Layer",
-            "symbol": "CLONE",
-            "price_change_7d_pct": 16.889573923763777,
-            "price_change_30d_pct": -14.997841310625498,
-            "market_cap_usd": 493073.0
-          }
-        ],
-        "signals": [],
-        "rank_key": 1.17
-      },
-      {
-        "id": "appchains",
-        "name": "Appchains",
-        "market_cap_usd": 202713261,
-        "mcap_change_24h_pct": 1.61288258439816,
-        "volume_24h_usd": 44629717.478699945,
-        "breadth_7d_pct": 20.0,
-        "median_7d_pct": -7.3,
-        "leaders": [
-          {
-            "name": "dYdX",
-            "symbol": "DYDX",
-            "price_change_7d_pct": 14.504317190456362,
-            "price_change_30d_pct": -10.43279495268989,
-            "market_cap_usd": 119597594.0
-          },
-          {
-            "name": "Geode Chain",
-            "symbol": "GEODE",
-            "price_change_7d_pct": 8.797003663737003,
-            "price_change_30d_pct": 30.33870656252253,
-            "market_cap_usd": 22248436.0
-          },
-          {
-            "name": "WPAY",
-            "symbol": "WPAY",
-            "price_change_7d_pct": 4.0014029331103345,
-            "price_change_30d_pct": 4.089562496078957,
-            "market_cap_usd": 5004208.0
-          }
-        ],
-        "signals": [],
-        "rank_key": -1.69
+        "rank_key": 18.85
       },
       {
         "id": "rebase-tokens",
         "name": "Rebase Tokens",
-        "market_cap_usd": 43423664,
-        "mcap_change_24h_pct": 0.176678514159367,
-        "volume_24h_usd": 13590.393280428669,
+        "market_cap_usd": 46243214,
+        "mcap_change_24h_pct": 5.961313281468633,
+        "volume_24h_usd": 23209.517346285935,
         "breadth_7d_pct": 18.2,
-        "median_7d_pct": -6.0,
+        "median_7d_pct": -3.8,
         "leaders": [
-          {
-            "name": "Templar DAO",
-            "symbol": "TEM",
-            "price_change_7d_pct": 0.29518090933538255,
-            "price_change_30d_pct": -0.7658089523857133,
-            "market_cap_usd": 0.0
-          },
           {
             "name": "Snowbank",
             "symbol": "SB",
-            "price_change_7d_pct": 0.022314849902428675,
-            "price_change_30d_pct": 1.383784063174183,
-            "market_cap_usd": 36194234.0
+            "price_change_7d_pct": 5.83786575357388,
+            "price_change_30d_pct": 7.571308085887319,
+            "market_cap_usd": 38297775.0
+          },
+          {
+            "name": "Templar DAO",
+            "symbol": "TEM",
+            "price_change_7d_pct": 0.35803445984548127,
+            "price_change_30d_pct": -0.2182398839199976,
+            "market_cap_usd": 0.0
           },
           {
             "name": "Wonderland TIME",
             "symbol": "TIME",
             "price_change_7d_pct": 0.0,
-            "price_change_30d_pct": -29.99463058240906,
+            "price_change_30d_pct": -29.43938543936131,
             "market_cap_usd": 10572.67
           }
         ],
         "signals": [],
-        "rank_key": -2.18
+        "rank_key": 5.8
       },
       {
-        "id": "arcade-games",
-        "name": "Arcade Games",
-        "market_cap_usd": 513942352,
-        "mcap_change_24h_pct": 0.09846493782089388,
-        "volume_24h_usd": 99152435.96181396,
-        "breadth_7d_pct": 17.9,
-        "median_7d_pct": -6.6,
+        "id": "lending-borrowing",
+        "name": "Lending/Borrowing Protocols",
+        "market_cap_usd": 3412299196,
+        "mcap_change_24h_pct": 4.527931524227815,
+        "volume_24h_usd": 479054269.3933373,
+        "breadth_7d_pct": 30.0,
+        "median_7d_pct": -5.2,
         "leaders": [
           {
-            "name": "XGame",
-            "symbol": "XGAME",
-            "price_change_7d_pct": 95.29826657925054,
-            "price_change_30d_pct": 181.15263129783784,
-            "market_cap_usd": 303559.0
+            "name": "EVAA Protocol",
+            "symbol": "EVAA",
+            "price_change_7d_pct": 35.6442619495833,
+            "price_change_30d_pct": 78.3898566888227,
+            "market_cap_usd": 5501822.0
           },
           {
-            "name": "SpaceFalcon",
-            "symbol": "FCON",
-            "price_change_7d_pct": 24.42143824364413,
-            "price_change_30d_pct": 6.241369603543393,
-            "market_cap_usd": 44632.0
+            "name": "Yei Finance",
+            "symbol": "CLO",
+            "price_change_7d_pct": 29.866256703045785,
+            "price_change_30d_pct": 226.4303153079636,
+            "market_cap_usd": 28713692.0
           },
           {
-            "name": "NFT Worlds",
-            "symbol": "WRLD",
-            "price_change_7d_pct": 6.56343497820975,
-            "price_change_30d_pct": -22.108431154451267,
-            "market_cap_usd": 76995.0
+            "name": "Kamino",
+            "symbol": "KMNO",
+            "price_change_7d_pct": 21.596842469339382,
+            "price_change_30d_pct": 2.8995290925261488,
+            "market_cap_usd": 102077791.0
           }
         ],
         "signals": [],
-        "rank_key": -2.92
+        "rank_key": 5.33
+      },
+      {
+        "id": "analytics",
+        "name": "Analytics",
+        "market_cap_usd": 6405696610,
+        "mcap_change_24h_pct": 8.232408340608547,
+        "volume_24h_usd": 232174143.8964812,
+        "breadth_7d_pct": 14.0,
+        "median_7d_pct": -7.9,
+        "leaders": [
+          {
+            "name": "LAB",
+            "symbol": "LAB",
+            "price_change_7d_pct": 23.69644533932557,
+            "price_change_30d_pct": 272.01412371603635,
+            "market_cap_usd": 5066947752.0
+          },
+          {
+            "name": "BNB Attestation Service",
+            "symbol": "BAS",
+            "price_change_7d_pct": 23.075596376182006,
+            "price_change_30d_pct": 77.44073323119589,
+            "market_cap_usd": 99915397.0
+          },
+          {
+            "name": "Levva Protocol",
+            "symbol": "LVVA",
+            "price_change_7d_pct": 11.336949837970998,
+            "price_change_30d_pct": -64.1634373791628,
+            "market_cap_usd": 624149.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 3.13
+      },
+      {
+        "id": "launchpad",
+        "name": "Launchpad",
+        "market_cap_usd": 7887047820,
+        "mcap_change_24h_pct": 5.993462871564381,
+        "volume_24h_usd": 388393592.7779581,
+        "breadth_7d_pct": 14.0,
+        "median_7d_pct": -6.2,
+        "leaders": [
+          {
+            "name": "Meteora",
+            "symbol": "MET",
+            "price_change_7d_pct": 36.000677967459,
+            "price_change_30d_pct": 15.64598757197003,
+            "market_cap_usd": 80700429.0
+          },
+          {
+            "name": "Immunefi",
+            "symbol": "IMU",
+            "price_change_7d_pct": 34.68174297407984,
+            "price_change_30d_pct": -9.44682558532623,
+            "market_cap_usd": 1514383.0
+          },
+          {
+            "name": "LAB",
+            "symbol": "LAB",
+            "price_change_7d_pct": 23.69644533932557,
+            "price_change_30d_pct": 272.01412371603635,
+            "market_cap_usd": 5066947752.0
+          }
+        ],
+        "signals": [],
+        "rank_key": 2.59
       }
     ]
   },
@@ -3192,118 +3208,118 @@
     "source": "CoinGecko /search/trending (search/view velocity = retail attention proxy)",
     "trending_coins": [
       {
+        "name": "Zano",
+        "symbol": "ZANO",
+        "cg_id": "zano",
+        "market_cap_rank": 195,
+        "price_change_24h_pct": 4.122847009176586
+      },
+      {
         "name": "Bitcoin",
         "symbol": "BTC",
         "cg_id": "bitcoin",
         "market_cap_rank": 1,
-        "price_change_24h_pct": -4.353248381623708
+        "price_change_24h_pct": -2.8427768203694312
       },
       {
         "name": "Rain",
         "symbol": "RAIN",
         "cg_id": "rain",
         "market_cap_rank": 13,
-        "price_change_24h_pct": 0.777625810727661
-      },
-      {
-        "name": "Solana",
-        "symbol": "SOL",
-        "cg_id": "solana",
-        "market_cap_rank": 7,
-        "price_change_24h_pct": -4.247353819304129
-      },
-      {
-        "name": "Zano",
-        "symbol": "ZANO",
-        "cg_id": "zano",
-        "market_cap_rank": 196,
-        "price_change_24h_pct": 0.9797068274823226
+        "price_change_24h_pct": 1.3371144924476093
       },
       {
         "name": "Pudgy Penguins",
         "symbol": "PENGU",
         "cg_id": "pudgy-penguins",
         "market_cap_rank": 117,
-        "price_change_24h_pct": -8.42538652436962
-      },
-      {
-        "name": "Collector Crypt",
-        "symbol": "CARDS",
-        "cg_id": "collector-crypt",
-        "market_cap_rank": 346,
-        "price_change_24h_pct": -8.010226696271026
-      },
-      {
-        "name": "Nesa",
-        "symbol": "NES",
-        "cg_id": "nesa",
-        "market_cap_rank": 501,
-        "price_change_24h_pct": -15.12774327328557
-      },
-      {
-        "name": "Ethereum",
-        "symbol": "ETH",
-        "cg_id": "ethereum",
-        "market_cap_rank": 2,
-        "price_change_24h_pct": -5.169268060622434
+        "price_change_24h_pct": -3.3465777603948
       },
       {
         "name": "Aave",
         "symbol": "AAVE",
         "cg_id": "aave",
-        "market_cap_rank": 61,
-        "price_change_24h_pct": 4.680357539581208
+        "market_cap_rank": 60,
+        "price_change_24h_pct": 10.678760385855272
       },
       {
         "name": "Hyperliquid",
         "symbol": "HYPE",
         "cg_id": "hyperliquid",
         "market_cap_rank": 10,
-        "price_change_24h_pct": -2.6898922268224665
+        "price_change_24h_pct": 2.64113406444123
+      },
+      {
+        "name": "Lighter",
+        "symbol": "LIT",
+        "cg_id": "lighter",
+        "market_cap_rank": 112,
+        "price_change_24h_pct": 12.11904982667558
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "cg_id": "solana",
+        "market_cap_rank": 7,
+        "price_change_24h_pct": -2.2084730546788025
       },
       {
         "name": "XRP",
         "symbol": "XRP",
         "cg_id": "ripple",
         "market_cap_rank": 6,
-        "price_change_24h_pct": -3.548474630214222
+        "price_change_24h_pct": -3.140837616673347
       },
       {
-        "name": "Monad",
-        "symbol": "MON",
-        "cg_id": "monad",
-        "market_cap_rank": 142,
-        "price_change_24h_pct": -2.8730926803159704
+        "name": "Solstice",
+        "symbol": "SLX",
+        "cg_id": "solstice",
+        "market_cap_rank": 311,
+        "price_change_24h_pct": 41.40966284025314
       },
       {
-        "name": "Zcash",
-        "symbol": "ZEC",
-        "cg_id": "zcash",
-        "market_cap_rank": 15,
-        "price_change_24h_pct": -2.6613299570731854
+        "name": "Sui",
+        "symbol": "SUI",
+        "cg_id": "sui",
+        "market_cap_rank": 35,
+        "price_change_24h_pct": -2.7367075311802878
       },
       {
-        "name": "Kaspa",
-        "symbol": "KAS",
-        "cg_id": "kaspa",
-        "market_cap_rank": 80,
-        "price_change_24h_pct": -4.990149688087844
+        "name": "Terra Luna Classic",
+        "symbol": "LUNC",
+        "cg_id": "terra-luna",
+        "market_cap_rank": 124,
+        "price_change_24h_pct": -5.7696415775251735
       },
       {
-        "name": "Backpack",
-        "symbol": "BP",
-        "cg_id": "backpack",
-        "market_cap_rank": 200,
-        "price_change_24h_pct": 0.3008093531462568
+        "name": "PAX Gold",
+        "symbol": "PAXG",
+        "cg_id": "pax-gold",
+        "market_cap_rank": 46,
+        "price_change_24h_pct": -2.0787562033634046
+      },
+      {
+        "name": "Zebec Network",
+        "symbol": "ZBCN",
+        "cg_id": "zebec-network",
+        "market_cap_rank": 144,
+        "price_change_24h_pct": -2.0835192261663438
+      },
+      {
+        "name": "Venice Token",
+        "symbol": "VVV",
+        "cg_id": "venice-token",
+        "market_cap_rank": 88,
+        "price_change_24h_pct": -3.941776801960807
       }
     ],
     "trending_categories": [
-      "Trading Card RWA Platform",
+      "Derivatives",
       "Index Coop Defi Index",
-      "Parallelized EVM",
-      "Quantum-Resistant",
-      "Zero Knowledge (ZK)",
-      "Lending/Borrowing Protocols"
+      "Automated Market Maker (AMM)",
+      "CoinList Launchpad",
+      "Tokenized Gold",
+      "Stablecoin Issuer"
     ]
   },
   "coil_lookalikes": {
@@ -3901,7 +3917,7 @@
         "read": "Validated beaten-down coil (the setup CoinGecko can see). SETUP ONLY \u2014 a falling knife until a spark: pair with a trigger (trending attention / heating narrative / catalyst / fresh dev-gov). No spark = watch only, no edge."
       }
     ],
-    "age_days": 1
+    "age_days": 2
   },
   "dev_governance": {
     "note": "Pre-announcement layer: GitHub release freshness (candidate set, capped) + Snapshot governance (gov_sources.json). Commit velocity for the full universe is in tokens[].gh_commits_4w (CoinGecko). A fresh_release or active proposal precedes the marketing post \u2014 read release_notes/body and judge what it does. No score.",
@@ -3918,7 +3934,7 @@
           "scaling"
         ],
         "release_date": "2026-06-23",
-        "days_since_release": 1,
+        "days_since_release": 2,
         "component_release": false,
         "fresh_release": true
       },
@@ -3934,7 +3950,7 @@
           "scaling"
         ],
         "release_date": "2026-06-22",
-        "days_since_release": 2,
+        "days_since_release": 3,
         "component_release": false,
         "fresh_release": true
       },
@@ -3951,7 +3967,7 @@
           "scaling"
         ],
         "release_date": "2026-06-20",
-        "days_since_release": 4,
+        "days_since_release": 5,
         "component_release": false,
         "fresh_release": true
       },
@@ -3968,7 +3984,7 @@
           "new capability"
         ],
         "release_date": "2026-06-18",
-        "days_since_release": 6,
+        "days_since_release": 7,
         "component_release": false,
         "fresh_release": true
       },
@@ -3982,7 +3998,7 @@
         "release_notes": "## Description\r\n\r\nThis is a runtime-only release. It reduces the collator-selection pallet's `MinCandidates` configuration value from 5 to 1 for the Astar and Shiden runtimes. Node clients are not impacted.\r\n\r\n## Runtimes\r\n### Shibuya\r\n```\r\n\u2728 spec_version:                2208\r\n\ud83c\udfcb Runtime Size:                2611547\r\n\ud83d\udddc Compressed:                  Yes\r\n\ud83c\udf81 Metadata version:            14\r\n\ud83d\uddf3\ufe0f sha256:                      0xe309decc71b48942d0785c3d38bcf44533d4de4a1ff5f57c227de8f04909243a\r\n\ud83d\uddf3\ufe0f blake2-256:                  0x6b28c57179886345d384f942ae741c0062920d3dbe741388f589030c97739800\r\n\ud83d\udce6 IPFS:                        QmfZFYZYqm9ZKzXLij8LZ8Q9SzM4wpzk2mRKGy9Ky6HmFa\r\n```\r\n\r\n### Shiden\r\n```\r\n\u2728 spec_version:                2208\r\n\ud83c\udfcb Runtime Size:                2421239\r\n\ud83d\udddc Compressed:                  Yes\r\n\ud83c\udf81 Metadata version:            14\r\n\ud83d\uddf3\ufe0f sha256:                      0xe6b9ac263872fd389c12e68da1d4c08d4cdc25018c62633068edec0902765faf\r\n\ud83d\uddf3\ufe0f blake2-256:                  0x57b30643c402d9e79a3883b0e541b4926119b5ae9138d18ecd55b60f1ac272f8\r\n\ud83d\udce6 IPFS:                        QmQYyvKi7QXCtYg7NBbE11wyc9TPZ1ddEdcKzDv9MvgK4B\r\n```\r\n\r\n### Astar\r\n```\r\n\u2728 spec_version:                2208\r\n\ud83c\udfcb Runtime Size:      \u2026[truncated]",
         "dimension_hint": [],
         "release_date": "2026-06-17",
-        "days_since_release": 7,
+        "days_since_release": 8,
         "component_release": false,
         "fresh_release": true
       },
@@ -3996,7 +4012,7 @@
         "release_notes": "This is the release for version v2.6.0.\n\nIt includes:\n- citrea-v2.6.0-linux-amd64\n- citrea-v2.6.0-linux-arm64\n- citrea-v2.6.0-osx-arm64\n- citrea-cli-v2.6.0-linux-amd64\n- citrea-cli-v2.6.0-linux-arm64\n- citrea-cli-v2.6.0-osx-arm64\n- SHA256SUMS.txt\n- SHA256SUMS.txt.sigstore.json",
         "dimension_hint": [],
         "release_date": "2026-06-17",
-        "days_since_release": 7,
+        "days_since_release": 8,
         "component_release": false,
         "fresh_release": true
       },
@@ -4014,7 +4030,7 @@
           "interop"
         ],
         "release_date": "2026-06-17",
-        "days_since_release": 7,
+        "days_since_release": 8,
         "component_release": false,
         "fresh_release": true
       },
@@ -4031,9 +4047,9 @@
           "new capability"
         ],
         "release_date": "2026-06-10",
-        "days_since_release": 14,
+        "days_since_release": 15,
         "component_release": false,
-        "fresh_release": true
+        "fresh_release": false
       },
       {
         "symbol": "GAS",
@@ -4045,9 +4061,9 @@
         "release_notes": null,
         "dimension_hint": [],
         "release_date": "2026-06-10",
-        "days_since_release": 14,
+        "days_since_release": 15,
         "component_release": false,
-        "fresh_release": true
+        "fresh_release": false
       },
       {
         "symbol": "NEO",
@@ -4059,9 +4075,9 @@
         "release_notes": null,
         "dimension_hint": [],
         "release_date": "2026-06-10",
-        "days_since_release": 14,
+        "days_since_release": 15,
         "component_release": false,
-        "fresh_release": true
+        "fresh_release": false
       },
       {
         "symbol": "GRT",
@@ -4076,7 +4092,7 @@
           "scaling"
         ],
         "release_date": "2026-06-03",
-        "days_since_release": 21,
+        "days_since_release": 22,
         "component_release": false,
         "fresh_release": false
       },
@@ -4093,7 +4109,7 @@
           "new capability"
         ],
         "release_date": "2026-05-26",
-        "days_since_release": 29,
+        "days_since_release": 30,
         "component_release": false,
         "fresh_release": false
       },
@@ -4107,7 +4123,7 @@
         "release_notes": null,
         "dimension_hint": [],
         "release_date": "2026-02-11",
-        "days_since_release": 133,
+        "days_since_release": 134,
         "component_release": false,
         "fresh_release": false
       },
@@ -4123,7 +4139,7 @@
           "scaling"
         ],
         "release_date": "2022-09-16",
-        "days_since_release": 1377,
+        "days_since_release": 1378,
         "component_release": false,
         "fresh_release": false
       },
@@ -4137,7 +4153,7 @@
         "release_notes": "\u2728 UI for Rate Card Change\r\n\u2728 Basic Uphold Connection KPIs (Daily Metrics)\r\n\ud83d\udc1b Enable a 5 BAT threshold for nagging users about going through KYC process. (Previously we emailed anyone with a positive balance)\r\n\ud83d\udc1b Fix logic error with Statements\r\n\ud83d\udc1b   Rolling development logs. Locally no more GBs of logs",
         "dimension_hint": [],
         "release_date": "2019-10-25",
-        "days_since_release": 2434,
+        "days_since_release": 2435,
         "component_release": false,
         "fresh_release": false
       },
@@ -4313,6 +4329,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4359,6 +4376,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4405,6 +4423,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4451,6 +4470,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4467,12 +4487,12 @@
       "price_change_7d_pct": -3.07,
       "price_change_30d_pct": -3.96,
       "protocol_tvl_usd": 19695487.56,
-      "fees_30d_usd": 53819.0,
+      "fees_30d_usd": 52845.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 42.85,
+      "p_f": 43.64,
       "p_s": null,
       "mc_tvl": 1.42,
       "fdv_mc": 1.42,
@@ -4497,6 +4517,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4543,6 +4564,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4589,6 +4611,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -4635,6 +4660,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4681,6 +4707,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4707,7 +4734,7 @@
       "mc_tvl": null,
       "fdv_mc": 2.09,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.13,
+      "p_f_pctile": 0.14,
       "p_s_pctile": 0.21,
       "mc_tvl_pctile": null,
       "gates": {
@@ -4717,7 +4744,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -4727,8 +4754,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -4774,6 +4801,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4820,6 +4848,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -4866,6 +4897,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4912,6 +4944,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -4958,6 +4991,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5004,6 +5038,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5050,6 +5087,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5096,6 +5134,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5142,6 +5181,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5188,6 +5228,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5234,6 +5277,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5280,6 +5324,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5326,6 +5373,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5372,6 +5420,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5418,6 +5469,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5464,6 +5516,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5510,6 +5563,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5556,6 +5610,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5602,6 +5657,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5648,6 +5704,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5694,6 +5753,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5740,6 +5800,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -5786,6 +5847,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5802,17 +5866,17 @@
       "price_change_7d_pct": -10.03,
       "price_change_30d_pct": -27.44,
       "protocol_tvl_usd": 16191576.89,
-      "fees_30d_usd": 107494.0,
-      "revenue_30d_usd": 5375.0,
+      "fees_30d_usd": 117367.0,
+      "revenue_30d_usd": 5868.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 26.62,
-      "p_s": 532.42,
+      "p_f": 24.38,
+      "p_s": 487.69,
       "mc_tvl": 2.15,
       "fdv_mc": 1.21,
-      "real_yield": 0.07,
-      "p_f_pctile": 0.69,
+      "real_yield": 0.08,
+      "p_f_pctile": 0.62,
       "p_s_pctile": 0.87,
       "mc_tvl_pctile": 0.59,
       "gates": {
@@ -5832,6 +5896,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5848,13 +5915,13 @@
       "price_change_7d_pct": -3.33,
       "price_change_30d_pct": 11.29,
       "protocol_tvl_usd": 539454.36,
-      "fees_30d_usd": 5860.0,
-      "revenue_30d_usd": 886.0,
+      "fees_30d_usd": 5810.0,
+      "revenue_30d_usd": 888.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 673.75,
-      "p_s": 4456.16,
+      "p_f": 679.55,
+      "p_s": 4446.12,
       "mc_tvl": 89.05,
       "fdv_mc": 4.05,
       "real_yield": 9999.0,
@@ -5878,6 +5945,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -5925,6 +5995,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -5971,6 +6044,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6017,6 +6091,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6063,6 +6140,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6109,6 +6187,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6155,6 +6234,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6201,6 +6281,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6247,6 +6328,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6293,6 +6377,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6339,6 +6424,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6385,6 +6471,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6431,6 +6518,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6477,6 +6565,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6523,6 +6612,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6569,6 +6659,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "fdv-overhang",
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6615,6 +6709,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6661,6 +6756,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6707,6 +6805,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6753,6 +6854,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6799,6 +6901,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6845,6 +6948,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6891,6 +6995,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -6937,6 +7044,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -6983,6 +7091,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7029,6 +7138,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7065,7 +7175,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -7075,8 +7185,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -7122,6 +7232,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7168,6 +7281,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7214,6 +7328,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7260,6 +7377,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7306,6 +7424,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7352,6 +7471,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7398,6 +7520,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7444,6 +7567,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7490,6 +7616,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7536,6 +7663,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7582,6 +7710,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7628,6 +7759,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7674,6 +7806,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7720,6 +7853,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7766,6 +7902,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7812,6 +7951,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -7858,6 +7998,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7904,6 +8047,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7950,6 +8096,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -7996,6 +8145,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8042,6 +8194,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8088,6 +8243,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8134,6 +8292,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -8181,6 +8342,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8227,6 +8391,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8273,6 +8440,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8319,6 +8487,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8365,6 +8534,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8411,6 +8581,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8457,6 +8628,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8503,6 +8675,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8549,6 +8722,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8595,6 +8771,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8641,6 +8820,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8687,6 +8869,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8733,6 +8918,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8779,6 +8965,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8825,6 +9012,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8871,6 +9059,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -8917,6 +9106,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -8963,6 +9155,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9009,6 +9202,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9055,6 +9249,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9101,6 +9296,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9147,6 +9343,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9193,6 +9390,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9239,6 +9437,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9285,6 +9484,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -9311,7 +9513,7 @@
       "mc_tvl": null,
       "fdv_mc": 1.66,
       "real_yield": null,
-      "p_f_pctile": 0.53,
+      "p_f_pctile": 0.54,
       "p_s_pctile": null,
       "mc_tvl_pctile": null,
       "gates": {
@@ -9331,6 +9533,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9377,6 +9580,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9423,6 +9627,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9469,6 +9674,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9515,6 +9721,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -9561,6 +9770,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9607,6 +9817,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -9653,6 +9866,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -9699,6 +9915,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9745,6 +9962,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9791,6 +10009,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9827,7 +10046,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -9837,8 +10056,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -9884,6 +10105,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -9930,6 +10152,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -9976,6 +10201,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10022,6 +10250,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10068,6 +10297,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10114,6 +10344,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10160,6 +10393,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10206,6 +10440,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10252,6 +10487,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10268,13 +10506,13 @@
       "price_change_7d_pct": 22.91,
       "price_change_30d_pct": 89.74,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 15154815.0,
-      "revenue_30d_usd": 15154815.0,
+      "fees_30d_usd": 14984551.0,
+      "revenue_30d_usd": 14984551.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.41,
-      "p_s": 0.41,
+      "p_f": 0.42,
+      "p_s": 0.42,
       "mc_tvl": null,
       "fdv_mc": 7.77,
       "real_yield": 9999.0,
@@ -10288,7 +10526,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -10298,8 +10536,10 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -10345,6 +10585,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10391,6 +10632,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10437,6 +10679,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10483,6 +10726,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10529,6 +10773,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10575,6 +10822,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10621,6 +10869,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10637,16 +10886,16 @@
       "price_change_7d_pct": -15.61,
       "price_change_30d_pct": -30.16,
       "protocol_tvl_usd": 492273873.07,
-      "fees_30d_usd": 721599.0,
-      "revenue_30d_usd": 715080.0,
+      "fees_30d_usd": 898241.0,
+      "revenue_30d_usd": 891723.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 12.28,
-      "p_s": 12.39,
+      "p_f": 9.87,
+      "p_s": 9.94,
       "mc_tvl": 0.22,
       "fdv_mc": 1.09,
-      "real_yield": 0.46,
+      "real_yield": 0.57,
       "p_f_pctile": 0.48,
       "p_s_pctile": 0.35,
       "mc_tvl_pctile": 0.36,
@@ -10667,6 +10916,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10713,6 +10965,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10759,6 +11012,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10805,6 +11059,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10851,6 +11106,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -10897,6 +11155,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10943,6 +11202,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -10970,7 +11230,7 @@
       "fdv_mc": 1.73,
       "real_yield": 9999.0,
       "p_f_pctile": 0.24,
-      "p_s_pctile": 0.17,
+      "p_s_pctile": 0.22,
       "mc_tvl_pctile": null,
       "gates": {
         "G1_real_yield": true,
@@ -10979,7 +11239,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -10989,8 +11249,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -11036,6 +11296,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11082,6 +11343,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11128,6 +11390,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -11174,6 +11439,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11220,6 +11486,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -11266,6 +11535,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11302,7 +11572,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -11312,8 +11582,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -11359,6 +11629,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11405,6 +11676,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -11451,6 +11725,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -11497,6 +11774,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -11543,6 +11823,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11589,6 +11870,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11635,6 +11917,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11681,6 +11964,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11727,6 +12011,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11773,6 +12058,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11819,6 +12105,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11865,6 +12152,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11911,6 +12199,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11957,6 +12246,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -11973,16 +12263,16 @@
       "price_change_7d_pct": 0.24,
       "price_change_30d_pct": -20.99,
       "protocol_tvl_usd": 197916951.17,
-      "fees_30d_usd": 1219218.0,
-      "revenue_30d_usd": 243639.0,
+      "fees_30d_usd": 1216338.0,
+      "revenue_30d_usd": 243105.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
       "p_f": 0.81,
-      "p_s": 4.03,
+      "p_s": 4.04,
       "mc_tvl": 0.06,
       "fdv_mc": 2.05,
-      "real_yield": 6.92,
+      "real_yield": 6.91,
       "p_f_pctile": 0.1,
       "p_s_pctile": 0.09,
       "mc_tvl_pctile": 0.18,
@@ -11993,7 +12283,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -12003,8 +12293,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -12050,6 +12340,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12096,6 +12387,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12142,6 +12434,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12188,6 +12481,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12234,6 +12528,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12280,6 +12575,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12326,6 +12622,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12372,6 +12669,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12418,6 +12716,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12464,6 +12763,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12510,6 +12810,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12526,17 +12827,17 @@
       "price_change_7d_pct": 19.76,
       "price_change_30d_pct": 8.28,
       "protocol_tvl_usd": 4622050774.9,
-      "fees_30d_usd": 640569.0,
+      "fees_30d_usd": 851489.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 23.53,
+      "p_f": 17.7,
       "p_s": null,
       "mc_tvl": 0.04,
       "fdv_mc": 2.47,
       "real_yield": null,
-      "p_f_pctile": 0.37,
+      "p_f_pctile": 0.36,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.08,
       "gates": {
@@ -12556,6 +12857,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12602,6 +12904,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12648,6 +12951,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -12694,6 +13000,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12740,6 +13047,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12786,6 +13094,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -12832,6 +13143,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12878,6 +13190,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -12894,13 +13209,13 @@
       "price_change_7d_pct": -17.95,
       "price_change_30d_pct": -30.98,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 139276.0,
-      "revenue_30d_usd": 139276.0,
+      "fees_30d_usd": 140009.0,
+      "revenue_30d_usd": 140009.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 104.64,
-      "p_s": 104.64,
+      "p_f": 104.1,
+      "p_s": 104.1,
       "mc_tvl": null,
       "fdv_mc": 2.48,
       "real_yield": 9999.0,
@@ -12924,6 +13239,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -12970,6 +13286,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13016,6 +13333,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13062,6 +13382,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13108,6 +13429,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13154,6 +13476,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13200,6 +13525,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13246,6 +13572,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13292,6 +13621,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13308,17 +13640,17 @@
       "price_change_7d_pct": -11.68,
       "price_change_30d_pct": -22.88,
       "protocol_tvl_usd": 1297258561.69,
-      "fees_30d_usd": 323247.0,
+      "fees_30d_usd": 321989.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 49.05,
+      "p_f": 49.24,
       "p_s": null,
       "mc_tvl": 0.15,
       "fdv_mc": 3.48,
       "real_yield": 0.0,
-      "p_f_pctile": 0.79,
+      "p_f_pctile": 0.83,
       "p_s_pctile": null,
       "mc_tvl_pctile": 0.28,
       "gates": {
@@ -13333,13 +13665,18 @@
         "D5_positioning": null
       },
       "traps": {
-        "T1_expensive_fading": false,
+        "T1_expensive_fading": null,
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float",
+        "emission-funded"
+      ],
       "pending": [
-        "D3_adoption"
+        "D3_adoption",
+        "T1_fading"
       ]
     },
     {
@@ -13384,6 +13721,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13430,6 +13768,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13476,6 +13815,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13522,6 +13864,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13568,6 +13911,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13614,6 +13960,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13660,6 +14007,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13706,6 +14056,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13752,6 +14103,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13798,6 +14150,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13844,6 +14197,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13890,6 +14246,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -13936,6 +14293,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -13982,6 +14342,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14028,6 +14389,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14074,6 +14436,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14120,6 +14483,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14166,6 +14530,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14182,13 +14547,13 @@
       "price_change_7d_pct": 15.08,
       "price_change_30d_pct": -10.87,
       "protocol_tvl_usd": 18177479.68,
-      "fees_30d_usd": 743.0,
-      "revenue_30d_usd": 743.0,
+      "fees_30d_usd": 720.0,
+      "revenue_30d_usd": 720.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 2541.83,
-      "p_s": 2541.83,
+      "p_f": 2623.02,
+      "p_s": 2623.02,
       "mc_tvl": 1.26,
       "fdv_mc": 1.65,
       "real_yield": 9999.0,
@@ -14212,6 +14577,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14258,6 +14624,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14304,6 +14671,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14350,6 +14718,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14396,6 +14765,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -14432,7 +14804,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -14442,8 +14814,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -14489,6 +14861,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14535,6 +14908,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14581,6 +14955,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14627,6 +15002,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14673,6 +15049,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14719,6 +15096,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14765,6 +15143,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14811,6 +15190,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14857,6 +15237,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14903,6 +15284,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -14949,6 +15333,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -14995,6 +15380,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15041,6 +15427,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -15087,6 +15476,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15133,6 +15523,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15179,6 +15570,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15225,6 +15617,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15271,6 +15664,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15317,6 +15711,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15363,6 +15758,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15409,6 +15805,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15455,6 +15852,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15501,6 +15899,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15547,6 +15946,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15593,6 +15993,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -15639,6 +16042,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -15685,6 +16091,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -15731,6 +16140,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15777,6 +16187,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15823,6 +16234,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15869,6 +16281,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -15885,17 +16300,17 @@
       "price_change_7d_pct": -7.18,
       "price_change_30d_pct": -28.2,
       "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 15644.0,
-      "revenue_30d_usd": 15644.0,
+      "fees_30d_usd": 16011.0,
+      "revenue_30d_usd": 16011.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 136.71,
-      "p_s": 136.71,
+      "p_f": 133.57,
+      "p_s": 133.57,
       "mc_tvl": null,
       "fdv_mc": 1.16,
-      "real_yield": 460.11,
-      "p_f_pctile": 0.64,
+      "real_yield": 470.91,
+      "p_f_pctile": 0.63,
       "p_s_pctile": 0.56,
       "mc_tvl_pctile": null,
       "gates": {
@@ -15915,6 +16330,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -15961,6 +16377,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16007,6 +16424,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16053,6 +16471,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16099,6 +16520,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16145,6 +16567,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16191,6 +16616,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16237,6 +16665,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16283,6 +16712,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16329,6 +16759,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16375,6 +16806,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16421,6 +16853,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16467,6 +16900,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16513,6 +16949,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -16560,6 +16997,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16606,6 +17046,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16652,6 +17095,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16698,6 +17142,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16744,6 +17189,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16790,6 +17236,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16836,6 +17283,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16882,6 +17330,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -16928,6 +17377,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -16974,6 +17426,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17020,6 +17475,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17066,6 +17522,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17112,6 +17571,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17158,6 +17618,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17204,6 +17665,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17250,6 +17714,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17296,6 +17763,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "thin-liquidity"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17342,6 +17812,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17388,6 +17859,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17434,6 +17906,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17480,6 +17953,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17496,17 +17972,17 @@
       "price_change_7d_pct": -3.3,
       "price_change_30d_pct": -34.36,
       "protocol_tvl_usd": null,
-      "fees_30d_usd": 17777.0,
-      "revenue_30d_usd": 17776.0,
+      "fees_30d_usd": 17640.0,
+      "revenue_30d_usd": 17639.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 48.61,
-      "p_s": 48.61,
+      "p_f": 48.98,
+      "p_s": 48.99,
       "mc_tvl": null,
       "fdv_mc": 2.05,
       "real_yield": 0.05,
-      "p_f_pctile": 0.5,
+      "p_f_pctile": 0.51,
       "p_s_pctile": 0.48,
       "mc_tvl_pctile": null,
       "gates": {
@@ -17526,6 +18002,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17572,6 +18051,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -17608,7 +18090,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -17618,8 +18100,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -17635,13 +18117,13 @@
       "price_change_7d_pct": 1.21,
       "price_change_30d_pct": -25.87,
       "protocol_tvl_usd": 846365.3,
-      "fees_30d_usd": 4780640.0,
-      "revenue_30d_usd": 4780640.0,
+      "fees_30d_usd": 4531538.0,
+      "revenue_30d_usd": 4531538.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 0.19,
-      "p_s": 0.19,
+      "p_f": 0.21,
+      "p_s": 0.21,
       "mc_tvl": 13.37,
       "fdv_mc": 7.61,
       "real_yield": 9999.0,
@@ -17655,7 +18137,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -17665,8 +18147,10 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -17712,6 +18196,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17758,6 +18243,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17804,6 +18290,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17850,6 +18337,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17896,6 +18384,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17942,6 +18431,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -17988,6 +18478,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18034,6 +18527,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18080,6 +18574,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18126,6 +18623,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18172,6 +18670,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18218,6 +18717,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18264,6 +18764,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18310,6 +18813,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18356,6 +18860,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18402,6 +18909,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18448,6 +18956,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18494,6 +19003,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18540,6 +19050,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18586,6 +19097,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18632,6 +19144,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18678,6 +19191,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18724,6 +19240,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18770,6 +19287,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18816,6 +19334,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -18862,6 +19383,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18908,6 +19430,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -18954,6 +19477,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19000,6 +19524,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19046,6 +19571,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19092,6 +19618,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19138,6 +19665,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19184,6 +19712,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19230,6 +19759,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19276,6 +19806,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -19322,6 +19855,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19368,6 +19902,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19414,6 +19949,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19430,13 +19966,13 @@
       "price_change_7d_pct": 36.1,
       "price_change_30d_pct": 46.67,
       "protocol_tvl_usd": 5370069.25,
-      "fees_30d_usd": 102317.0,
-      "revenue_30d_usd": 20462.0,
+      "fees_30d_usd": 101849.0,
+      "revenue_30d_usd": 20369.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 31.23,
-      "p_s": 156.17,
+      "p_f": 31.38,
+      "p_s": 156.89,
       "mc_tvl": 7.24,
       "fdv_mc": 4.9,
       "real_yield": 9999.0,
@@ -19460,6 +19996,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -19496,7 +20035,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -19506,8 +20045,10 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -19553,6 +20094,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19599,6 +20141,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -19645,6 +20190,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -19691,6 +20239,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19737,6 +20286,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19783,6 +20333,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19829,6 +20380,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -19876,6 +20430,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19922,6 +20477,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -19968,6 +20524,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20014,6 +20573,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20060,6 +20620,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20106,6 +20669,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -20153,6 +20719,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20199,6 +20768,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20245,6 +20815,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20291,6 +20862,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20337,6 +20909,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20383,6 +20956,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20429,6 +21003,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20475,6 +21052,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20521,6 +21101,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20567,6 +21148,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20613,6 +21195,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20659,6 +21242,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20705,6 +21289,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20751,6 +21336,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20797,6 +21383,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20843,6 +21432,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20889,6 +21479,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -20935,6 +21526,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -20981,6 +21575,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21027,6 +21624,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21073,6 +21671,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21119,6 +21718,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21165,6 +21765,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21211,6 +21814,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21227,17 +21833,17 @@
       "price_change_7d_pct": -28.79,
       "price_change_30d_pct": -9.37,
       "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 50217.0,
-      "revenue_30d_usd": 50217.0,
+      "fees_30d_usd": 49790.0,
+      "revenue_30d_usd": 49790.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 61.09,
-      "p_s": 61.09,
+      "p_f": 61.62,
+      "p_s": 61.62,
       "mc_tvl": null,
       "fdv_mc": 4.64,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.56,
+      "p_f_pctile": 0.57,
       "p_s_pctile": 0.5,
       "mc_tvl_pctile": null,
       "gates": {
@@ -21257,6 +21863,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21303,6 +21912,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21319,18 +21929,18 @@
       "price_change_7d_pct": -4.03,
       "price_change_30d_pct": -56.99,
       "protocol_tvl_usd": 5263533.45,
-      "fees_30d_usd": 98092.0,
-      "revenue_30d_usd": 98092.0,
+      "fees_30d_usd": 97407.0,
+      "revenue_30d_usd": 97407.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 11.21,
-      "p_s": 11.21,
+      "p_f": 11.29,
+      "p_s": 11.29,
       "mc_tvl": 2.54,
       "fdv_mc": 5.49,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.3,
-      "p_s_pctile": 0.27,
+      "p_f_pctile": 0.31,
+      "p_s_pctile": 0.29,
       "mc_tvl_pctile": 0.52,
       "gates": {
         "G1_real_yield": true,
@@ -21349,6 +21959,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21395,6 +22008,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21441,6 +22055,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21487,6 +22102,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21533,6 +22149,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21579,6 +22196,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21625,6 +22243,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21671,6 +22290,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21717,6 +22337,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21763,6 +22386,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21809,6 +22435,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21855,6 +22482,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -21901,6 +22531,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21947,6 +22578,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -21993,6 +22625,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -22010,18 +22643,18 @@
       "price_change_7d_pct": -15.23,
       "price_change_30d_pct": -32.17,
       "protocol_tvl_usd": 1035061228.23,
-      "fees_30d_usd": 689567.0,
-      "revenue_30d_usd": 670386.0,
+      "fees_30d_usd": 677773.0,
+      "revenue_30d_usd": 658628.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 25.92,
-      "p_s": 26.66,
+      "p_f": 26.37,
+      "p_s": 27.14,
       "mc_tvl": 0.21,
       "fdv_mc": 1.64,
-      "real_yield": 1.45,
-      "p_f_pctile": 0.66,
-      "p_s_pctile": 0.52,
+      "real_yield": 1.42,
+      "p_f_pctile": 0.69,
+      "p_s_pctile": 0.57,
       "mc_tvl_pctile": 0.33,
       "gates": {
         "G1_real_yield": true,
@@ -22040,6 +22673,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22086,6 +22720,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22132,6 +22769,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22178,6 +22816,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22224,6 +22865,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22270,6 +22914,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22316,6 +22961,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22362,6 +23010,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22408,6 +23059,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22454,6 +23106,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22500,6 +23153,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22546,6 +23200,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22592,6 +23247,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22638,6 +23294,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22684,6 +23341,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22730,6 +23388,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -22776,6 +23437,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22822,6 +23484,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22868,6 +23531,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22914,6 +23578,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -22960,6 +23625,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23006,6 +23672,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23052,6 +23719,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -23098,6 +23768,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23144,6 +23815,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23190,6 +23862,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23236,6 +23909,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23272,7 +23946,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -23282,8 +23956,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -23329,6 +24003,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23375,6 +24050,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -23421,6 +24099,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23467,6 +24146,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23513,6 +24193,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -23559,6 +24242,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23605,6 +24289,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23651,6 +24336,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -23697,6 +24385,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23743,6 +24432,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23789,6 +24479,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23805,18 +24496,18 @@
       "price_change_7d_pct": -8.82,
       "price_change_30d_pct": -22.95,
       "protocol_tvl_usd": 39296897.42,
-      "fees_30d_usd": 126744.0,
-      "revenue_30d_usd": 24120.0,
+      "fees_30d_usd": 119797.0,
+      "revenue_30d_usd": 23251.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 52.02,
-      "p_s": 273.37,
+      "p_f": 55.04,
+      "p_s": 283.59,
       "mc_tvl": 2.04,
       "fdv_mc": 1.6,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.83,
-      "p_s_pctile": 0.78,
+      "p_f_pctile": 0.86,
+      "p_s_pctile": 0.83,
       "mc_tvl_pctile": 0.56,
       "gates": {
         "G1_real_yield": true,
@@ -23835,6 +24526,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -23882,6 +24574,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -23928,6 +24623,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -23974,6 +24670,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24020,6 +24717,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24066,6 +24766,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24112,6 +24815,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24128,7 +24834,7 @@
       "price_change_7d_pct": -8.58,
       "price_change_30d_pct": -24.43,
       "protocol_tvl_usd": 881953830.25,
-      "fees_30d_usd": 2372722.0,
+      "fees_30d_usd": 2364372.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
@@ -24158,6 +24864,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D1_growth",
         "D3_adoption"
@@ -24205,6 +24912,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24251,6 +24959,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24297,6 +25006,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24343,6 +25053,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24389,6 +25102,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24435,6 +25149,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24481,6 +25196,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24527,6 +25243,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24573,6 +25290,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24619,6 +25337,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24665,6 +25386,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24711,6 +25433,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24757,6 +25480,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24803,6 +25529,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24849,6 +25576,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24895,6 +25623,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -24941,6 +25670,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -24987,6 +25719,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25033,6 +25768,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25079,6 +25815,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25125,6 +25864,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25171,6 +25911,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25217,6 +25958,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25263,6 +26005,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25309,6 +26052,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25355,6 +26099,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25401,6 +26146,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25447,6 +26195,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25493,6 +26242,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25539,6 +26291,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25575,7 +26330,7 @@
         "G4_not_wash": null
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -25585,8 +26340,8 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -25632,6 +26387,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25678,6 +26436,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25724,6 +26483,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25770,6 +26530,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25816,6 +26577,7 @@
         "T3_wash": null
       },
       "gates_passed": 0,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25862,6 +26624,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -25908,6 +26671,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -25954,6 +26720,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -26000,6 +26769,7 @@
         "T3_wash": null
       },
       "gates_passed": 0,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26046,6 +26816,7 @@
         "T3_wash": null
       },
       "gates_passed": 0,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26092,6 +26863,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "fdv-overhang"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -26138,6 +26912,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26154,18 +26929,18 @@
       "price_change_7d_pct": -6.46,
       "price_change_30d_pct": -15.89,
       "protocol_tvl_usd": 8182273315.35,
-      "fees_30d_usd": 102890.0,
-      "revenue_30d_usd": 99543.0,
+      "fees_30d_usd": 101628.0,
+      "revenue_30d_usd": 98277.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 25.83,
-      "p_s": 26.7,
+      "p_f": 26.15,
+      "p_s": 27.04,
       "mc_tvl": 0.0,
       "fdv_mc": 1.0,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.62,
-      "p_s_pctile": 0.57,
+      "p_f_pctile": 0.66,
+      "p_s_pctile": 0.52,
       "mc_tvl_pctile": 0.03,
       "gates": {
         "G1_real_yield": true,
@@ -26184,6 +26959,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26220,7 +26996,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -26230,8 +27006,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -26277,6 +27053,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -26323,6 +27102,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -26369,6 +27151,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26415,6 +27198,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26461,6 +27245,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26507,6 +27292,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -26553,6 +27341,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26599,6 +27388,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26645,6 +27435,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26691,6 +27482,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26737,6 +27529,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -26784,6 +27577,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26830,6 +27624,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26876,6 +27671,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26922,6 +27718,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -26968,6 +27765,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27014,6 +27814,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27060,6 +27861,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27106,6 +27910,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27152,6 +27959,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27198,6 +28006,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27214,18 +28023,18 @@
       "price_change_7d_pct": -14.74,
       "price_change_30d_pct": -20.11,
       "protocol_tvl_usd": 31921412.06,
-      "fees_30d_usd": 53313.0,
-      "revenue_30d_usd": 8890.0,
+      "fees_30d_usd": 78140.0,
+      "revenue_30d_usd": 13028.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 68.85,
-      "p_s": 412.86,
+      "p_f": 46.97,
+      "p_s": 281.73,
       "mc_tvl": 1.4,
       "fdv_mc": 1.07,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.86,
-      "p_s_pctile": 0.83,
+      "p_f_pctile": 0.79,
+      "p_s_pctile": 0.78,
       "mc_tvl_pctile": 0.54,
       "gates": {
         "G1_real_yield": true,
@@ -27239,14 +28048,14 @@
         "D5_positioning": null
       },
       "traps": {
-        "T1_expensive_fading": null,
+        "T1_expensive_fading": false,
         "T2_pump_into_unlock": null,
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D3_adoption",
-        "T1_fading"
+        "D3_adoption"
       ]
     },
     {
@@ -27291,6 +28100,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27337,6 +28149,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27353,18 +28166,18 @@
       "price_change_7d_pct": 426.01,
       "price_change_30d_pct": 516.68,
       "protocol_tvl_usd": 11407575.11,
-      "fees_30d_usd": 1229.0,
-      "revenue_30d_usd": 1212.0,
+      "fees_30d_usd": 1334.0,
+      "revenue_30d_usd": 1312.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 4034.34,
-      "p_s": 4090.93,
+      "p_f": 3716.8,
+      "p_s": 3779.12,
       "mc_tvl": 5.29,
       "fdv_mc": 1.14,
       "real_yield": 9999.0,
-      "p_f_pctile": 0.84,
-      "p_s_pctile": 0.88,
+      "p_f_pctile": 0.83,
+      "p_s_pctile": 0.87,
       "mc_tvl_pctile": 0.59,
       "gates": {
         "G1_real_yield": true,
@@ -27383,6 +28196,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -27430,6 +28244,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27476,6 +28291,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27522,6 +28338,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27568,6 +28385,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27614,6 +28432,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27660,6 +28481,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27706,6 +28530,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27752,6 +28579,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -27798,6 +28628,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27844,6 +28675,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27890,6 +28722,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27936,6 +28769,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -27982,6 +28816,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28028,6 +28863,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28074,6 +28910,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -28090,12 +28929,12 @@
       "price_change_7d_pct": -5.74,
       "price_change_30d_pct": -29.03,
       "protocol_tvl_usd": 0.0,
-      "fees_30d_usd": 31596.0,
+      "fees_30d_usd": 31002.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 26.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 527.0,
+      "p_f": 537.1,
       "p_s": null,
       "mc_tvl": null,
       "fdv_mc": 1.0,
@@ -28120,6 +28959,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28166,6 +29006,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28212,6 +29053,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -28259,6 +29103,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28305,6 +29150,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28341,7 +29187,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -28351,8 +29197,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -28398,6 +29244,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28444,6 +29291,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28490,6 +29338,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28536,6 +29385,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28582,6 +29432,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28598,12 +29449,12 @@
       "price_change_7d_pct": -9.34,
       "price_change_30d_pct": -30.12,
       "protocol_tvl_usd": 448239130.84,
-      "fees_30d_usd": 279096.0,
+      "fees_30d_usd": 284713.0,
       "revenue_30d_usd": 0.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 5.88,
+      "p_f": 5.76,
       "p_s": null,
       "mc_tvl": 0.04,
       "fdv_mc": 2.62,
@@ -28628,6 +29479,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28674,6 +29526,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28720,6 +29573,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -28736,13 +29592,13 @@
       "price_change_7d_pct": -5.49,
       "price_change_30d_pct": -33.74,
       "protocol_tvl_usd": 55882838.81,
-      "fees_30d_usd": 38826.0,
-      "revenue_30d_usd": 18418.0,
+      "fees_30d_usd": 39523.0,
+      "revenue_30d_usd": 18215.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 14.52,
-      "p_s": 30.62,
+      "p_f": 14.27,
+      "p_s": 30.96,
       "mc_tvl": 0.12,
       "fdv_mc": 6.4,
       "real_yield": 9999.0,
@@ -28766,6 +29622,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -28812,6 +29671,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -28858,6 +29720,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28904,6 +29767,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28950,6 +29814,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -28996,6 +29861,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -29042,6 +29910,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29088,6 +29957,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -29134,6 +30006,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29180,6 +30053,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29226,6 +30100,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29272,6 +30147,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29318,6 +30194,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -29364,6 +30243,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29410,6 +30290,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -29456,6 +30339,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -29502,6 +30388,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29548,6 +30435,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29594,6 +30482,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29640,6 +30529,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29656,18 +30546,18 @@
       "price_change_7d_pct": -6.63,
       "price_change_30d_pct": -30.62,
       "protocol_tvl_usd": 95112690.3,
-      "fees_30d_usd": 293641.0,
-      "revenue_30d_usd": 269405.0,
+      "fees_30d_usd": 296054.0,
+      "revenue_30d_usd": 271900.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 4.78,
-      "p_s": 5.21,
+      "p_f": 4.74,
+      "p_s": 5.16,
       "mc_tvl": 0.18,
       "fdv_mc": 1.68,
       "real_yield": 9999.0,
       "p_f_pctile": 0.28,
-      "p_s_pctile": 0.22,
+      "p_s_pctile": 0.17,
       "mc_tvl_pctile": 0.31,
       "gates": {
         "G1_real_yield": true,
@@ -29676,7 +30566,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": false,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -29686,8 +30576,8 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -29733,6 +30623,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29779,6 +30670,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29795,13 +30687,13 @@
       "price_change_7d_pct": -5.11,
       "price_change_30d_pct": -18.57,
       "protocol_tvl_usd": 58320.97,
-      "fees_30d_usd": 111.0,
-      "revenue_30d_usd": 111.0,
+      "fees_30d_usd": 110.0,
+      "revenue_30d_usd": 110.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 42622.25,
-      "p_s": 42622.25,
+      "p_f": 43009.72,
+      "p_s": 43009.72,
       "mc_tvl": 986.97,
       "fdv_mc": 1.37,
       "real_yield": 9999.0,
@@ -29825,6 +30717,7 @@
         "T3_wash": null
       },
       "gates_passed": 4,
+      "risk_tags": [],
       "pending": [
         "D3_adoption",
         "T1_fading"
@@ -29872,6 +30765,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29918,6 +30812,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -29964,6 +30859,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30010,6 +30906,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30056,6 +30953,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30102,6 +31000,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30148,6 +31047,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30194,6 +31094,7 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30240,6 +31141,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30286,6 +31188,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30332,6 +31235,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30378,6 +31282,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -30424,6 +31331,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -30470,6 +31380,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30516,6 +31427,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30562,6 +31474,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30608,6 +31521,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30654,6 +31568,9 @@
         "T3_wash": null
       },
       "gates_passed": 3,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -30700,6 +31617,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30746,6 +31664,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30792,6 +31711,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30838,6 +31758,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30884,6 +31805,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -30930,6 +31854,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -30976,6 +31901,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31022,6 +31950,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31068,6 +31997,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31114,6 +32044,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31160,6 +32091,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31206,6 +32140,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31222,16 +32159,16 @@
       "price_change_7d_pct": -14.28,
       "price_change_30d_pct": -43.0,
       "protocol_tvl_usd": 116840401.99,
-      "fees_30d_usd": 787049.0,
-      "revenue_30d_usd": 99239.0,
+      "fees_30d_usd": 844565.0,
+      "revenue_30d_usd": 118160.0,
       "gh_commits_4w": 0.0,
       "next_unlock_days": null,
       "next_unlock_pct_float": null,
-      "p_f": 1.72,
-      "p_s": 13.65,
+      "p_f": 1.6,
+      "p_s": 11.46,
       "mc_tvl": 0.14,
       "fdv_mc": 4.51,
-      "real_yield": 0.1,
+      "real_yield": 0.12,
       "p_f_pctile": 0.21,
       "p_s_pctile": 0.39,
       "mc_tvl_pctile": 0.26,
@@ -31242,7 +32179,7 @@
         "G4_not_wash": true
       },
       "divergences": {
-        "D1_cheap_and_growing": null,
+        "D1_cheap_and_growing": true,
         "D3_adoption_ahead": null,
         "D5_positioning": null
       },
@@ -31252,8 +32189,11 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "low-float",
+        "emission-funded"
+      ],
       "pending": [
-        "D1_growth",
         "D3_adoption"
       ]
     },
@@ -31299,6 +32239,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31345,6 +32286,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31391,6 +32335,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31437,6 +32384,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31483,6 +32431,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31529,6 +32478,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31575,6 +32525,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31621,6 +32572,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31667,6 +32619,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31713,6 +32668,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31759,6 +32717,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31805,6 +32766,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31851,6 +32813,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31897,6 +32860,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
@@ -31943,6 +32907,9 @@
         "T3_wash": null
       },
       "gates_passed": 1,
+      "risk_tags": [
+        "low-float"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -31989,6 +32956,9 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [
+        "emission-funded"
+      ],
       "pending": [
         "D3_adoption"
       ]
@@ -32035,6 +33005,7 @@
         "T3_wash": null
       },
       "gates_passed": 2,
+      "risk_tags": [],
       "pending": [
         "D3_adoption"
       ]
